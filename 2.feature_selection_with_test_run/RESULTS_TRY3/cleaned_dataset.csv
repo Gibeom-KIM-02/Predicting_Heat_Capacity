@@ -1,0 +1,199 @@
+name,smiles,group,formula,molecular_weight,rotatable_bonds,H_bond_donors,H_bond_acceptors,TPSA,logP,melting_point,boiling_point,heat_capacity,canonical_smiles
+varox,CC(C)(C)OOC(C)(C)CCC(C)(C)OOC(C)(C)C,Thermo_Experimental,C16H34O4,290.444,9,0,4,36.92,4.82,8.0,51.11,560.83,CC(C)(C)OOC(C)(C)CCC(C)(C)OOC(C)(C)C
+isobutyl isobutyrate,CC(C)COC(=O)C(C)C,Thermo_Experimental,C8H16O2,144.214,4,0,2,26.3,1.84,-80.7,148.0,273.37,CC(C)COC(=O)C(C)C
+propargyl alcohol,C#CCO,Thermo_Experimental,C3H4O,56.064,0,1,1,20.23,-0.39,-50.0,113.0,90.97,C#CCO
+tert-octylamine,CC(C)(C)CC(C)(C)N,Thermo_Experimental,C8H19N,129.247,2,1,1,26.02,2.16,178.5,140.05,271.2,CC(C)(C)CC(C)(C)N
+biphenyl,c1ccc(-c2ccccc2)cc1,Thermo_Experimental,C12H10,154.212,1,0,0,0.0,3.35,69.43,255.2,250.17,c1ccc(-c2ccccc2)cc1
+"1,3-dibutylurea",CCCCNC(=O)NCCCC,Thermo_Experimental,C9H20N2O,172.272,6,2,1,41.13,1.89,72.0,286.58,332.47,CCCCNC(=O)NCCCC
+trans-stilbene,C(=C/c1ccccc1)\c1ccccc1,Thermo_Experimental,C14H12,180.25,2,0,0,0.0,3.86,123.0,307.0,294.72,C(=C/c1ccccc1)\c1ccccc1
+2-heptanol,CCCCCC(C)O,Thermo_Experimental,C7H16O,116.204,4,1,1,20.23,1.95,80.5,159.0,237.99,CCCCCC(C)O
+"2,4-hexadienal",C/C=C/C=C/C=O,Thermo_Experimental,C6H8O,96.129,2,0,1,17.07,1.32,-16.5,174.0,166.0,C/C=C/C=C/C=O
+hexamethyldisilazane,C[Si](C)(C)N[Si](C)(C)C,Thermo_Experimental,C6H19NSi2,161.397,2,1,1,12.03,2.25,-78.0,125.0,298.73,C[Si](C)(C)N[Si](C)(C)C
+2-chloroethyl acrylate,C=CC(=O)OCCCl,Thermo_Experimental,C5H7ClO2,134.562,4,0,2,26.3,0.95,-56.55,51.94,181.23,C=CC(=O)OCCCl
+4-tert-butylcyclohexanone,CC(C)(C)C1CCC(=O)CC1,Thermo_Experimental,C10H18O,154.253,1,0,1,17.07,2.79,49.0,239.39,299.81,CC(C)(C)C1CCC(=O)CC1
+methyl tetradecanoate,CCCCCCCCCCCCCC(=O)OC,Thermo_Experimental,C15H30O2,242.403,13,0,2,26.3,4.86,18.5,295.0,499.1,CCCCCCCCCCCCCC(=O)OC
+2-octanol,CCCCCCC(C)O,Thermo_Experimental,C8H18O,130.231,5,1,1,20.23,2.34,-31.8,178.5,267.25,CCCCCCC(C)O
+propyltrimethoxysilane,CCC[Si](OC)(OC)OC,Thermo_Experimental,C6H16O3Si,164.277,5,0,3,27.69,1.27,0.0,142.0,286.41,CCC[Si](OC)(OC)OC
+dipentylamine,CCCCCNCCCCC,Thermo_Experimental,C10H23N,157.301,8,1,1,12.03,2.96,-43.89,204.0,329.7,CCCCCNCCCCC
+2-methylaziridine,CC1CN1,Thermo_Experimental,C3H7N,57.096,0,1,1,21.94,-0.02,-65.0,67.0,112.55,CC1CN1
+copper(i) iodide,[Cu]I,Thermo_Experimental,CuI,190.45,0,0,0,0.0,0.88,606.0,1290.0,28.77,[Cu][I]
+methyl octanoate,CCCCCCCC(=O)OC,Thermo_Experimental,C9H18O2,158.241,7,0,2,26.3,2.52,-40.0,194.1,315.17,CCCCCCCC(=O)OC
+dimethoxydimethylsilane,CO[Si](C)(C)OC,Thermo_Experimental,C4H12O2Si,120.224,2,0,2,18.46,0.98,-80.0,82.0,209.4,CO[Si](C)(C)OC
+decanal,CCCCCCCCCC=O,Thermo_Experimental,C10H20O,156.269,8,0,1,17.07,3.33,17.78,208.33,313.16,CCCCCCCCCC=O
+decanoic acid,CCCCCCCCCC(=O)O,Thermo_Experimental,C10H20O2,172.268,8,1,1,37.3,3.21,31.0,270.0,332.46,CCCCCCCCCC(=O)O
+ethylene diacrylate,C=CC(=O)OCCOC(=O)C=C,Thermo_Experimental,C8H10O4,170.164,7,0,4,52.6,0.44,188.5,219.29,256.88,C=CC(=O)OCCOC(=O)C=C
+n-methyloctylamine,CCCCCCCCNC,Thermo_Experimental,C9H21N,143.274,7,1,1,12.03,2.57,-11.0,78.5,300.45,CCCCCCCCNC
+isopropanol,CC(C)O,Thermo_Experimental,C3H8O,60.096,0,1,1,20.23,0.39,-89.5,82.21,155.17,CC(C)O
+tris(hydroxyethyl) isocyanurate,O=c1n(CCO)c(=O)n(CCO)c(=O)n1CCO,Thermo_Experimental,C9H15N3O6,261.234,6,3,6,126.69,-3.85,136.0,661.1,387.54,O=c1n(CCO)c(=O)n(CCO)c(=O)n1CCO
+diisobutylamine,CC(C)CNCC(C)C,Thermo_Experimental,C8H19N,129.247,4,1,1,12.03,1.89,-75.25,139.6,271.2,CC(C)CNCC(C)C
+caspan,C[Hg]Cl,Thermo_Experimental,CH3ClHg,251.078,0,0,0,0.0,1.27,167.0,170.0,84.46,[CH3][Hg][Cl]
+"3-methyl-1,2-cyclohexanedione",CC1CCCC(=O)C1=O,Thermo_Experimental,C7H10O2,126.155,0,0,2,34.14,0.94,62.0,70.5,212.62,CC1CCCC(=O)C1=O
+phosphoryl chloride,O=P(Cl)(Cl)Cl,Thermo_Experimental,Cl3OP,153.332,0,0,1,17.07,2.81,1.25,105.5,69.39,O=P(Cl)(Cl)Cl
+methyl 4-methylbenzoate,COC(=O)c1ccc(C)cc1,Thermo_Experimental,C9H10O2,150.177,2,0,2,26.3,1.78,34.0,217.22,242.63,COC(=O)c1ccc(C)cc1
+citiolone,CC(=O)NC1CCSC1=O,Thermo_Experimental,C6H9NO2S,159.21,1,1,3,46.17,0.15,111.0,298.7,226.15,CC(=O)NC1CCSC1=O
+2-butanol,CCC(C)O,Thermo_Experimental,C4H10O,74.123,1,1,1,20.23,0.78,-115.0,99.4,196.77,CCC(C)O
+neopentyl glycol,CC(C)(CO)CO,Thermo_Experimental,C5H12O2,104.149,2,2,2,40.46,0.0,127.0,207.0,198.84,CC(C)(CO)CO
+(3-mercaptopropyl)trimethoxysilane,CO[Si](CCCS)(OC)OC,Thermo_Experimental,C6H16O3SSi,196.344,6,1,4,27.69,1.18,-97.8,214.0,310.19,CO[Si](CCCS)(OC)OC
+4-methoxy-4-oxobutanoic acid,COC(=O)CCC(=O)O,Thermo_Experimental,C5H8O4,132.115,4,1,3,63.6,0.02,57.75,244.58,198.73,COC(=O)CCC(=O)O
+2-butoxyethanol,CCCCOCCO,Thermo_Experimental,C6H14O2,118.176,5,1,2,29.46,0.8,-70.0,171.0,272.88,CCCCOCCO
+eptc,CCCN(CCC)C(=O)SCC,Thermo_Experimental,C9H19NOS,189.324,6,0,2,20.31,2.98,34.84,127.22,337.62,CCCN(CCC)C(=O)SCC
+"1,1-dichloroacetone",CC(=O)C(Cl)Cl,Thermo_Experimental,C3H4Cl2O,126.97,1,0,1,17.07,1.38,-54.81,120.0,128.27,CC(=O)C(Cl)Cl
+triethylene glycol monobutyl ether,CCCCOCCOCCOCCO,Thermo_Experimental,C10H22O4,206.282,11,1,4,47.92,0.83,-35.2,278.0,383.24,CCCCOCCOCCOCCO
+diethyl malonate,CCOC(=O)CC(=O)OCC,Thermo_Experimental,C7H12O4,160.169,6,0,4,52.6,0.5,-50.0,200.0,299.78,CCOC(=O)CC(=O)OCC
+1-nonanol,CCCCCCCCCO,Thermo_Experimental,C9H20O,144.258,7,1,1,20.23,2.73,-5.0,213.7,340.52,CCCCCCCCCO
+dihexylamine,CCCCCCNCCCCCC,Thermo_Experimental,C12H27N,185.355,10,1,1,12.03,3.74,-5.05,236.0,388.19,CCCCCCNCCCCCC
+bis(2-ethylhexyl) sebacate,CCCCC(CC)COC(=O)CCCCCCCCC(=O)OCC(CC)CCCC,Thermo_Experimental,C26H50O4,426.682,23,0,4,52.6,7.63,-48.0,248.0,827.99,CCCCC(CC)COC(=O)CCCCCCCCC(=O)OCC(CC)CCCC
+diethyl ethylphosphonate,CCOP(=O)(CC)OCC,Thermo_Experimental,C6H15O3P,166.157,5,0,3,35.53,2.27,197.78,82.5,279.84,CCOP(=O)(CC)OCC
+hydrazine,NN,Thermo_Experimental,H4N2,32.046,0,2,2,52.04,-1.18,2.0,113.55,98.83,NN
+methyl carbazate,COC(=O)NN,Thermo_Experimental,C2H6N2O2,90.082,1,2,3,64.35,-0.78,72.0,153.13,139.04,COC(=O)NN
+fluoxetine,CNCCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1,Thermo_Experimental,C17H18F3NO,309.331,6,1,2,21.26,4.44,180.5,395.1,467.02,CNCCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1
+methional,CSCCC=O,Thermo_Experimental,C4H8OS,104.174,3,0,2,17.07,0.94,-58.0,62.0,161.84,CSCCC=O
+pivaloyl chloride,CC(C)(C)C(=O)Cl,Thermo_Experimental,C5H9ClO,120.579,1,0,1,17.07,1.8,-57.0,40.83,185.58,CC(C)(C)C(=O)Cl
+2-ethylhexyl chloroformate,CCCCC(CC)COC(=O)Cl,Thermo_Experimental,C9H17ClO2,192.686,7,0,2,26.3,3.58,-24.71,207.0,324.59,CCCCC(CC)COC(=O)Cl
+"1,2,5,6,9,10-hexabromocyclododecane",BrC1CCC(Br)C(Br)CCC(Br)C(Br)CCC1Br,Thermo_Experimental,C12H18Br6,641.7,0,0,0,0.0,6.92,167.0,619.79,480.37,BrC1CCC(Br)C(Br)CCC(Br)C(Br)CCC1Br
+ethyl nonanoate,CCCCCCCCC(=O)OCC,Thermo_Experimental,C11H22O2,186.295,9,0,2,26.3,3.3,-44.5,119.0,361.94,CCCCCCCCC(=O)OCC
+octanenitrile,CCCCCCCC#N,Thermo_Experimental,C8H15N,125.215,5,0,1,23.79,2.87,-45.6,202.0,246.11,CCCCCCCC#N
+ethyl myristate,CCCCCCCCCCCCCC(=O)OCC,Thermo_Experimental,C16H32O2,256.43,14,0,2,26.3,5.25,12.15,179.0,508.96,CCCCCCCCCCCCCC(=O)OCC
+9-decen-1-ol,C=CCCCCCCCCO,Thermo_Experimental,C10H20O,156.269,8,1,1,20.23,2.9,-13.0,236.0,313.16,C=CCCCCCCCCO
+hexadecylamine,CCCCCCCCCCCCCCCCN,Thermo_Experimental,C16H35N,241.463,14,1,1,26.02,5.43,46.8,321.0,505.18,CCCCCCCCCCCCCCCCN
+lethane,CCCCOCCOCCSC#N,Thermo_Experimental,C9H17NO2S,203.307,9,0,4,42.25,2.03,61.89,122.5,337.79,CCCCOCCOCCSC#N
+n-methylethanolamine,CNCCO,Thermo_Experimental,C3H9NO,75.111,2,2,2,32.26,-0.8,-4.5,64.44,191.76,CNCCO
+tert-butyl ethyl ether,CCOC(C)(C)C,Thermo_Experimental,C6H14O,102.177,2,0,1,9.23,1.82,-94.0,72.7,220.27,CCOC(C)(C)C
+methyl formate,COC=O,Thermo_Experimental,C2H4O2,60.052,1,0,2,26.3,-0.21,-100.0,31.6,92.69,COC=O
+diisobutyl adipate,CC(C)COC(=O)CCCCC(=O)OCC(C)C,Thermo_Experimental,C14H26O4,258.358,11,0,4,52.6,2.95,-20.0,279.0,472.63,CC(C)COC(=O)CCCCC(=O)OCC(C)C
+perchlorate,[O-][Cl+3]([O-])([O-])[O-],Thermo_Experimental,ClO4-,99.449,0,0,4,92.24,-4.76,262.5,-78.82,67.38,[O-][Cl+3]([O-])([O-])[O-]
+ethylmethylnitrosamine,CCN(C)N=O,Thermo_Experimental,C3H8N2O,88.11,1,0,2,32.67,0.62,-97.0,163.0,154.02,CCN(C)N=O
+1-pentanol,CCCCCO,Thermo_Experimental,C5H12O,88.15,3,1,1,20.23,1.17,-78.45,137.6,208.27,CCCCCO
+n-nitrosodipropylamine,CCCN(CCC)N=O,Thermo_Experimental,C6H14N2O,130.191,4,0,2,32.67,1.79,-98.0,206.0,243.72,CCCN(CCC)N=O
+tert-butyl acetoacetate,CC(=O)CC(=O)OC(C)(C)C,Thermo_Experimental,C8H14O3,158.197,4,0,3,43.37,1.31,-38.0,183.85,275.53,CC(=O)CC(=O)OC(C)(C)C
+triethyl phosphonoacetate,CCOC(=O)CP(=O)(OCC)OCC,Thermo_Experimental,C8H17O5P,224.193,8,0,5,61.83,1.82,92.5,261.0,355.61,CCOC(=O)CP(=O)(OCC)OCC
+pentane,CCCCC,Thermo_Experimental,C5H12,72.151,2,0,0,0.0,2.2,-130.0,36.06,167.12,CCCCC
+"1,8-diazabicyclo[5.4.0]undec-7-ene",C1CCC2=NCCCN2CC1,Thermo_Experimental,C9H16N2,152.241,0,0,2,15.6,1.66,-70.0,242.55,285.69,C1CCC2=NCCCN2CC1
+n-methyldiethanolamine,CN(CCO)CCO,Thermo_Experimental,C5H13NO2,119.164,4,2,3,43.7,-1.1,-21.0,245.0,267.41,CN(CCO)CCO
+methylcyclopentane,CC1CCCC1,Thermo_Experimental,C6H12,84.162,0,0,0,0.0,2.2,-142.5,71.8,175.48,CC1CCCC1
+"n,n'-methylenebisacrylamide",C=CC(=O)NCNC(=O)C=C,Thermo_Experimental,C7H10N2O2,154.169,4,2,2,58.2,-0.45,185.0,288.05,241.88,C=CC(=O)NCNC(=O)C=C
+1-butanethiol,CCCCS,Thermo_Experimental,C4H10S,90.191,2,1,1,0.0,1.72,-116.0,109.61,162.49,CCCCS
+dichlormid,C=CCN(CC=C)C(=O)C(Cl)Cl,Thermo_Experimental,C8H11Cl2NO,208.088,5,0,1,20.31,1.99,5.5,130.0,278.38,C=CCN(CC=C)C(=O)C(Cl)Cl
+1-hexadecanol,CCCCCCCCCCCCCCCCO,Thermo_Experimental,C16H34O,242.447,14,1,1,20.23,5.46,49.5,334.0,577.53,CCCCCCCCCCCCCCCCO
+"1,4-dithiane",C1CSCCS1,Thermo_Experimental,C4H8S2,120.242,0,0,2,0.0,1.47,111.65,115.6,167.57,C1CSCCS1
+octamethyltrisiloxane,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,Thermo_Experimental,C8H24O2Si3,236.536,4,0,2,18.46,3.39,-80.0,152.48,421.72,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C
+di(trimethylolpropane),CCC(CO)(CO)COCC(CC)(CO)CO,Thermo_Experimental,C12H26O5,250.335,10,4,5,90.15,-0.24,109.5,215.0,460.45,CCC(CO)(CO)COCC(CC)(CO)CO
+butanediol dimethacrylate,C=C(C)C(=O)OCCCCOC(=O)C(=C)C,Thermo_Experimental,C12H18O4,226.272,9,0,4,52.6,2.01,226.28,110.0,380.74,C=C(C)C(=O)OCCCCOC(=O)C(=C)C
+"n,n-diethyldodecanamide",CCCCCCCCCCCC(=O)N(CC)CC,Thermo_Experimental,C16H33NO,255.446,12,0,1,20.31,4.78,4.0,358.84,513.72,CCCCCCCCCCCC(=O)N(CC)CC
+2212-32-0,CN(C)CCN(C)CCO,Thermo_Experimental,C7H18N2O,146.234,5,1,3,26.71,-0.53,21.26,207.05,287.26,CN(C)CCN(C)CCO
+triethyl phosphate,CCOP(=O)(OCC)OCC,Thermo_Experimental,C6H15O4P,182.156,6,0,4,44.76,2.2,-56.2,216.0,295.61,CCOP(=O)(OCC)OCC
+"3-acetyl-6-methyl-2h-pyran-2,4(3h)-dione",CC(=O)C1C(=O)C=C(C)OC1=O,Thermo_Experimental,C8H8O4,168.148,1,0,4,60.44,0.22,109.0,270.0,238.24,CC(=O)C1C(=O)C=C(C)OC1=O
+phorate,CCOP(=S)(OCC)SCSCC,Thermo_Experimental,C7H17O2PS3,260.386,8,0,5,18.46,3.73,-42.78,126.11,359.9,CCOP(=S)(OCC)SCSCC
+1-ethoxy-2-propanol,CCOCC(C)O,Thermo_Experimental,C5H12O2,104.149,3,1,2,29.46,0.4,-100.0,131.0,198.84,CCOCC(C)O
+"n,n-dimethyl-1,3-propanediamine",CN(C)CCCN,Thermo_Experimental,C5H14N2,102.181,3,1,2,29.26,-0.1,-70.0,122.78,208.72,CN(C)CCCN
+1-methyl-2-pyrrolidinone,CN1CCCC1=O,Thermo_Experimental,C5H9NO,99.133,0,0,1,20.31,0.24,-24.0,204.2,175.11,CN1CCCC1=O
+2-(diisopropylamino)ethanol,CC(C)N(CCO)C(C)C,Thermo_Experimental,C8H19NO,145.246,4,1,2,23.47,1.1,-39.0,195.0,344.57,CC(C)N(CCO)C(C)C
+methyl ethyl ketoxime,CCC(C)=NO,Thermo_Experimental,C4H9NO,87.122,1,1,2,32.59,1.25,-29.5,151.5,160.48,CCC(C)=NO
+3-pentanone,CCC(=O)CC,Thermo_Experimental,C5H10O,86.134,2,0,1,17.07,1.38,-42.22,101.9,166.23,CCC(=O)CC
+3-methylhexane,CCCC(C)CC,Thermo_Experimental,C7H16,100.205,3,0,0,0.0,2.83,-119.0,91.0,216.02,CCCC(C)CC
+2-propoxyethanol,CCCOCCO,Thermo_Experimental,C5H12O2,104.149,4,1,2,29.46,0.41,-75.0,152.0,198.84,CCCOCCO
+methyl 3-mercaptopropionate,COC(=O)CCS,Thermo_Experimental,C4H8O2S,120.173,3,1,3,26.3,0.48,38.0,166.0,176.67,COC(=O)CCS
+methyl 2-nonynoate,CCCCCCC#CC(=O)OC,Thermo_Experimental,C10H16O2,168.236,5,0,2,26.3,2.13,77.74,121.5,303.23,CCCCCCC#CC(=O)OC
+hexyl octanoate,CCCCCCCC(=O)OCCCCCC,Thermo_Experimental,C14H28O2,228.376,12,0,2,26.3,4.47,-30.6,277.0,450.21,CCCCCCCC(=O)OCCCCCC
+sorbic alcohol,C/C=C/C=C/CO,Thermo_Experimental,C6H10O,98.145,2,1,1,20.23,1.11,31.0,164.23,181.48,C/C=C/C=C/CO
+1-bromotridecane,CCCCCCCCCCCCCBr,Thermo_Experimental,C13H27Br,263.263,11,0,0,0.0,5.69,6.2,292.0,454.01,CCCCCCCCCCCCCBr
+pentyl valerate,CCCCCOC(=O)CCCC,Thermo_Experimental,C10H20O2,172.268,8,0,2,26.3,2.91,-78.8,204.0,332.46,CCCCCOC(=O)CCCC
+nonanoyl chloride,CCCCCCCCC(=O)Cl,Thermo_Experimental,C9H17ClO,176.687,7,0,1,17.07,3.5,-60.75,218.0,308.31,CCCCCCCCC(=O)Cl
+n-methylpyrrolidine,CN1CCCC1,Thermo_Experimental,C5H11N,85.15,0,0,1,3.24,0.71,-90.0,206.1,171.24,CN1CCCC1
+"2,4-hexadienyl isobutyrate",CC=CC=CCOC(=O)C(C)C,Thermo_Experimental,C10H16O2,168.236,5,0,2,26.3,2.32,-53.52,221.35,303.23,CC=CC=CCOC(=O)C(C)C
+icaridin,CCC(C)OC(=O)N1CCCCC1CCO,Thermo_Experimental,C12H23NO3,229.32,5,1,3,49.77,2.16,-170.0,296.0,419.13,CCC(C)OC(=O)N1CCCCC1CCO
+gamma-nonalactone,CCCCCC1CCC(=O)O1,Thermo_Experimental,C9H16O2,156.225,4,0,2,26.3,2.27,-21.69,134.0,288.47,CCCCCC1CCC(=O)O1
+tert-butylamine,CC(C)(C)N,Thermo_Experimental,C4H11N,73.139,0,1,1,26.02,0.74,-67.5,44.02,154.2,CC(C)(C)N
+10-undecenal,C=CCCCCCCCCC=O,Thermo_Experimental,C11H20O,168.28,9,0,1,17.07,3.49,-19.18,99.0,329.25,C=CCCCCCCCCC=O
+dichlorvos,COP(=O)(OC)OC=C(Cl)Cl,Thermo_Experimental,C4H7Cl2O4P,220.976,4,0,4,44.76,2.68,83.89,140.0,229.79,COP(=O)(OC)OC=C(Cl)Cl
+"n,n-dimethylisopropylamine",CC(C)N(C)C,Thermo_Experimental,C5H13N,87.166,1,0,1,3.24,0.96,-109.57,66.0,183.45,CC(C)N(C)C
+"n,n-dimethyldipropylenetriamine",CN(C)CCCNCCCN,Thermo_Experimental,C8H21N3,159.277,7,2,3,41.29,-0.12,75.16,244.63,321.42,CN(C)CCCNCCCN
+dimethyl sulfate,COS(=O)(=O)OC,Thermo_Experimental,C2H6O4S,126.133,2,0,4,52.6,-0.48,-29.5,186.0,159.56,COS(=O)(=O)OC
+dimethylamine,CNC,Thermo_Experimental,C2H7N,45.085,0,1,1,12.03,-0.16,-92.0,7.3,95.68,CNC
+2-ethylhexyl stearate,CCCCCCCCCCCCCCCCCC(=O)OCC(CC)CCCC,Thermo_Experimental,C26H52O2,396.7,23,0,2,26.3,9.01,136.96,579.11,802.16,CCCCCCCCCCCCCCCCCC(=O)OCC(CC)CCCC
+isocetyl stearate,CCCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCC(C)C,Thermo_Experimental,C34H68O2,508.916,31,0,2,26.3,12.13,227.12,762.15,1036.43,CCCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCC(C)C
+oxazolidine e,CCC12COCN1COC2,Thermo_Experimental,C7H13NO2,143.186,1,0,3,21.7,0.41,41.61,175.61,252.13,CCC12COCN1COC2
+butoctamide semisuccinate,CCCCC(CC)CNC(=O)CC(C)OC(=O)CCC(=O)O,Thermo_Experimental,C16H29NO5,315.41,13,2,4,92.7,2.51,46.5,599.42,557.83,CCCCC(CC)CNC(=O)CC(C)OC(=O)CCC(=O)O
+trans-cinnamaldehyde,O=C/C=C/c1ccccc1,Thermo_Experimental,C9H8O,132.162,2,0,1,17.07,1.9,-7.5,253.0,207.34,O=C/C=C/c1ccccc1
+"dimethyl 3,3'-thiodipropionate",COC(=O)CCSCCC(=O)OC,Thermo_Experimental,C8H14O4S,206.263,8,0,5,52.6,0.85,25.83,294.71,314.26,COC(=O)CCSCCC(=O)OC
+3-chloropivaloyl chloride,CC(C)(CCl)C(=O)Cl,Thermo_Experimental,C5H8Cl2O,155.024,2,0,1,17.07,2.02,-14.85,111.0,196.32,CC(C)(CCl)C(=O)Cl
+gamma-heptalactone,CCCC1CCC(=O)O1,Thermo_Experimental,C7H12O2,128.171,2,0,2,26.3,1.49,-44.23,151.57,228.66,CCCC1CCC(=O)O1
+gamma-valerolactone,CC1CCC(=O)O1,Thermo_Experimental,C5H8O2,100.117,0,0,2,26.3,0.71,-31.0,207.55,168.12,CC1CCC(=O)O1
+4-methyl-2-pentanol,CC(C)CC(C)O,Thermo_Experimental,C6H14O,102.177,2,1,1,20.23,1.41,-90.0,132.0,208.72,CC(C)CC(C)O
+propylene carbonate,CC1COC(=O)O1,Thermo_Experimental,C4H6O3,102.089,0,0,3,35.53,0.54,-49.0,241.6,166.73,CC1COC(=O)O1
+triisobutyl phosphate,CC(C)COP(=O)(OCC(C)C)OCC(C)C,Thermo_Experimental,C12H27O4P,266.318,9,0,4,44.76,4.11,-60.0,264.0,477.73,CC(C)COP(=O)(OCC(C)C)OCC(C)C
+hydroxypivalyl hydroxypivalate,CC(C)(CO)COC(=O)C(C)(C)CO,Thermo_Experimental,C10H20O4,204.266,6,2,4,66.76,0.57,126.0,391.37,368.2,CC(C)(CO)COC(=O)C(C)(C)CO
+heptamethyleneimine,C1CCCNCCC1,Thermo_Experimental,C7H15N,113.204,0,1,1,12.03,1.54,29.0,174.5,229.83,C1CCCNCCC1
+bis(2-ethylhexyl) maleate,CCCCC(CC)COC(=O)/C=C\C(=O)OCC(CC)CCCC,Thermo_Experimental,C20H36O4,340.504,16,0,4,52.6,5.06,-60.0,164.0,636.42,CCCCC(CC)COC(=O)/C=C\C(=O)OCC(CC)CCCC
+allylacetic acid,C=CCCC(=O)O,Thermo_Experimental,C5H8O2,100.117,3,1,1,37.3,1.04,-22.25,188.5,168.12,C=CCCC(=O)O
+methyl isocyanate,CN=C=O,Thermo_Experimental,C2H3NO,57.052,0,0,2,29.43,-0.05,-80.0,38.3,82.78,CN=C=O
+"n,n'-diethylthiourea",CCNC(=S)NCC,Thermo_Experimental,C5H12N2S,132.232,2,2,1,24.06,0.49,143.89,287.0,223.51,CCNC(=S)NCC
+diethyl maleate,CCOC(=O)/C=C\C(=O)OCC,Thermo_Experimental,C8H12O4,172.18,6,0,4,52.6,0.67,1.5,218.0,274.7,CCOC(=O)/C=C\C(=O)OCC
+2-methyl-2-propanethiol,CC(C)(C)S,Thermo_Experimental,C4H10S,90.191,0,1,1,0.0,1.71,-35.56,64.2,162.49,CC(C)(C)S
+oleic acid,CCCCCCCC/C=C\CCCCCCCC(=O)O,Thermo_Experimental,C18H34O2,282.468,15,1,1,37.3,6.11,14.0,286.11,548.92,CCCCCCCC/C=C\CCCCCCCC(=O)O
+1-(1-butoxy-2-propoxy)-2-propanol,CCCCOCC(C)OCC(C)O,Thermo_Experimental,C10H22O3,190.283,8,1,3,38.69,1.59,4.59,291.39,365.08,CCCCOCC(C)OCC(C)O
+"trans-1,2-dichloroethylene",Cl/C=C/Cl,Thermo_Experimental,C2H2Cl2,96.944,0,0,0,0.0,1.94,-49.8,47.64,79.27,Cl/C=C/Cl
+"cis-1,2-dichloroethene",Cl/C=C\Cl,Thermo_Experimental,C2H2Cl2,96.944,0,0,0,0.0,1.94,-80.0,60.0,79.27,Cl/C=C\Cl
+trimethoxymethane,COC(OC)OC,Thermo_Experimental,C4H10O3,106.121,3,0,3,27.69,0.21,-19.0,100.0,186.52,COC(OC)OC
+citronellyl butyrate,CCCC(=O)OCCC(C)CCC=C(C)C,Thermo_Experimental,C14H26O2,226.36,9,0,2,26.3,4.1,-17.32,245.0,436.56,CCCC(=O)OCCC(C)CCC=C(C)C
+1-(4-fluorophenyl)-4-oxocyclohexanecarbonitrile,N#CC1(c2ccc(F)cc2)CCC(=O)CC1,Thermo_Experimental,C13H12FNO,217.243,1,0,2,40.86,2.73,82.0,444.51,327.19,N#CC1(c2ccc(F)cc2)CCC(=O)CC1
+"butanoic acid, 2-butoxy-1-methyl-2-oxoethyl ester",CCCCOC(=O)C(C)OC(=O)CCC,Thermo_Experimental,C11H20O4,216.277,9,0,4,52.6,2.06,10.24,294.13,382.71,CCCCOC(=O)C(C)OC(=O)CCC
+n-vinyl-2-pyrrolidone,C=CN1CCCC1=O,Thermo_Experimental,C6H9NO,111.144,1,0,1,20.31,0.75,13.5,96.0,195.19,C=CN1CCCC1=O
+cyclododecane,C1CCCCCCCCCCC1,Thermo_Experimental,C12H24,168.324,0,0,0,0.0,4.68,60.7,244.0,326.09,C1CCCCCCCCCCC1
+isoamyl nitrite,CC(C)CCON=O,Thermo_Experimental,C5H11NO2,117.148,3,0,3,38.66,1.73,-80.0,99.0,207.6,CC(C)CCON=O
+1-bromotetradecane,CCCCCCCCCCCCCCBr,Thermo_Experimental,C14H29Br,277.29,12,0,0,0.0,6.08,5.3,307.0,484.28,CCCCCCCCCCCCCCBr
+molybdenum trioxide,O=[Mo](=O)=O,Thermo_Experimental,MoO3,143.937,0,0,3,51.21,-0.36,795.0,1155.0,126.95,[O]=[Mo](=[O])=[O]
+bis(2-ethylhexyl) hydrogen phosphate,CCCCC(CC)COP(=O)(O)OCC(CC)CCCC,Thermo_Experimental,C16H35O4P,322.426,14,1,3,55.76,5.55,-60.0,155.0,597.22,CCCCC(CC)COP(=O)(O)OCC(CC)CCCC
+dibutyl adipate,CCCCOC(=O)CCCCC(=O)OCCCC,Thermo_Experimental,C14H26O4,258.358,13,0,4,52.6,3.23,-32.4,305.05,456.49,CCCCOC(=O)CCCCC(=O)OCCCC
+"2,4-dimethylphenol",Cc1ccc(O)c(C)c1,Thermo_Experimental,C8H10O,122.167,0,1,1,20.23,2.01,24.5,210.94,210.49,Cc1ccc(O)c(C)c1
+chromium(iii) oxide,O=[Cr]O[Cr]=O,Thermo_Experimental,Cr2O3,151.989,0,0,3,43.37,-0.31,2432.0,3000.0,156.9,[O]=[Cr][O][Cr]=[O]
+lactide,CC1OC(=O)C(C)OC1=O,Thermo_Experimental,C6H8O4,144.126,0,0,4,52.6,-0.14,120.75,177.97,211.97,CC1OC(=O)C(C)OC1=O
+triglyme,COCCOCCOCCOC,Thermo_Experimental,C8H18O4,178.228,9,0,4,36.92,0.31,-45.0,218.0,368.04,COCCOCCOCCOC
+sulfonethylmethane,CCC(C)(S(=O)(=O)CC)S(=O)(=O)CC,Thermo_Experimental,C8H18O4S2,242.362,5,0,4,68.28,0.98,76.0,305.77,371.63,CCC(C)(S(=O)(=O)CC)S(=O)(=O)CC
+palmitoylethanolamide,CCCCCCCCCCCCCCCC(=O)NCCO,Thermo_Experimental,C18H37NO2,299.499,16,2,2,49.33,4.58,98.5,534.51,592.15,CCCCCCCCCCCCCCCC(=O)NCCO
+delta-undecalactone,CCCCCCC1CCCC(=O)O1,Thermo_Experimental,C11H20O2,184.279,5,0,2,26.3,3.05,-2.67,153.5,347.88,CCCCCCC1CCCC(=O)O1
+piperazine,C1CNCCN1,Thermo_Experimental,C4H10N2,86.138,0,2,2,24.06,-0.82,106.0,148.63,168.82,C1CNCCN1
+methyl 2-octynoate,CCCCCC#CC(=O)OC,Thermo_Experimental,C9H14O2,154.209,4,0,2,26.3,1.74,66.47,217.0,273.2,CCCCCC#CC(=O)OC
+sorbic acid,C/C=C/C=C/C(=O)O,Thermo_Experimental,C6H8O2,112.128,2,1,1,37.3,1.2,134.0,227.78,181.93,C/C=C/C=C/C(=O)O
+dimethyltin dichloride,C[Sn](C)(Cl)Cl,Thermo_Experimental,C2H6Cl2Sn,219.687,0,0,0,0.0,2.17,106.5,189.0,148.29,[CH3][Sn]([CH3])([Cl])[Cl]
+2-ethylhexanoyl chloride,CCCCC(CC)C(=O)Cl,Thermo_Experimental,C8H15ClO,162.66,5,0,1,17.07,2.97,67.5,200.35,278.0,CCCCC(CC)C(=O)Cl
+ethyl 3-ethoxypropionate,CCOCCC(=O)OCC,Thermo_Experimental,C7H14O3,146.186,6,0,3,35.53,0.98,-100.0,168.0,261.15,CCOCCC(=O)OCC
+pivalic acid,CC(C)(C)C(=O)O,Thermo_Experimental,C5H10O2,102.133,1,1,1,37.3,1.12,35.5,164.2,194.55,CC(C)(C)C(=O)O
+2-methyl-2-nitropropan-1-ol,CC(C)(CO)[N+](=O)[O-],Thermo_Experimental,C4H9NO3,119.12,1,1,3,63.37,0.03,89.5,94.0,193.29,CC(C)(CO)[N+](=O)[O-]
+1-dodecanethiol,CCCCCCCCCCCCS,Thermo_Experimental,C12H26S,202.407,10,1,1,0.0,4.84,-7.5,277.0,399.03,CCCCCCCCCCCCS
+cremophor a,CCCCCCCCCCCCCCCCCC(=O)OCCO,Thermo_Experimental,C20H40O3,328.537,19,1,3,46.53,5.78,32.0,534.45,645.92,CCCCCCCCCCCCCCCCCC(=O)OCCO
+octane,CCCCCCCC,Thermo_Experimental,C8H18,114.232,5,0,0,0.0,3.37,-56.85,125.64,254.46,CCCCCCCC
+methyl laurate,CCCCCCCCCCCC(=O)OC,Thermo_Experimental,C13H26O2,214.349,11,0,2,26.3,4.08,5.1,268.0,437.48,CCCCCCCCCCCC(=O)OC
+1-iodohexadecane,CCCCCCCCCCCCCCCCI,Thermo_Experimental,C16H33I,352.344,14,0,0,0.0,6.9,22.0,357.0,569.43,CCCCCCCCCCCCCCCCI
+5-nitroindazole,O=[N+]([O-])c1ccc2[nH]ncc2c1,Thermo_Experimental,C7H5N3O2,163.136,0,1,3,71.82,1.47,208.0,387.91,208.21,O=[N+]([O-])c1ccc2[nH]ncc2c1
+"3,3-dimethylpentane",CCC(C)(C)CC,Thermo_Experimental,C7H16,100.205,2,0,0,0.0,2.83,-134.9,86.0,216.02,CCC(C)(C)CC
+"1,5-hexadiene",C=CCCC=C,Thermo_Experimental,C6H10,82.146,3,0,0,0.0,2.14,-141.0,59.2,162.94,C=CCCC=C
+"2,2,4-trimethylpentane",CC(C)CC(C)(C)C,Thermo_Experimental,C8H18,114.232,2,0,0,0.0,3.08,-107.0,99.21,238.9,CC(C)CC(C)(C)C
+2-methylbutyl isovalerate,CCC(C)COC(=O)CC(C)C,Thermo_Experimental,C10H20O2,172.268,6,0,2,26.3,2.62,-58.36,193.0,332.46,CCC(C)COC(=O)CC(C)C
+hydroxylamine,NO,Thermo_Experimental,H3NO,33.03,0,2,2,46.25,-0.67,33.0,58.0,55.86,NO
+butyltin trichloride,CCCC[Sn](Cl)(Cl)Cl,Thermo_Experimental,C4H9Cl3Sn,282.186,2,0,0,0.0,3.44,-63.0,102.0,225.24,CCC[CH2][Sn]([Cl])([Cl])[Cl]
+1-propoxy-2-propanol,CCCOCC(C)O,Thermo_Experimental,C6H14O2,118.176,4,1,2,29.46,0.79,-80.0,150.2,228.37,CCCOCC(C)O
+2-butyl-1-octanol,CCCCCCC(CO)CCCC,Thermo_Experimental,C12H26O,186.339,9,1,1,20.23,3.76,-2.33,147.0,384.27,CCCCCCC(CO)CCCC
+dibutyl nonanedioate,CCCCOC(=O)CCCCCCCC(=O)OCCCC,Thermo_Experimental,C17H32O4,300.439,16,0,4,52.6,4.4,92.86,336.0,561.93,CCCCOC(=O)CCCCCCCC(=O)OCCCC
+allyl bromide,C=CCBr,Thermo_Experimental,C3H5Br,120.977,1,0,0,0.0,1.57,-119.0,70.1,116.34,C=CCBr
+neodymium chloride,Cl[Nd](Cl)Cl,Thermo_Experimental,Cl3Nd,250.599,0,0,0,0.0,2.07,759.0,1600.0,57.03,[Cl][Nd]([Cl])[Cl]
+diisooctyl adipate,CC(C)CCCCCOC(=O)CCCCC(=O)OCCCCCC(C)C,Thermo_Experimental,C22H42O4,370.574,19,0,4,52.6,6.07,-70.0,212.5,709.98,CC(C)CCCCCOC(=O)CCCCC(=O)OCCCCCC(C)C
+copper(ii) dimethyldithiocarbamate,CN(C)C(=S)[S-].CN(C)C(=S)[S-].[Cu+2],Thermo_Experimental,C6H12CuN2S4,303.99,0,0,4,6.48,0.76,260.0,415.51,318.7,CN(C)C(=S)[S-].CN(C)C(=S)[S-].[Cu+2]
+pentanal,CCCCC=O,Thermo_Experimental,C5H10O,86.134,3,0,1,17.07,1.38,-91.5,103.0,166.23,CCCCC=O
+octamylamine,CC(C)CCCC(C)NCCC(C)C,Thermo_Experimental,C13H29N,199.382,8,1,1,12.03,3.84,-29.22,100.5,417.44,CC(C)CCCC(C)NCCC(C)C
+methyl cyanoacetate,COC(=O)CC#N,Thermo_Experimental,C4H5NO2,99.089,2,0,3,50.09,0.07,-22.5,203.0,142.35,COC(=O)CC#N
+isononanamine,CC(C)CCCCCCN,Thermo_Experimental,C9H21N,143.274,6,1,1,26.02,2.55,-13.7,204.46,300.45,CC(C)CCCCCCN
+diptocarpamidine,CC(C)NC(=O)NC(C)C,Thermo_Experimental,C7H16N2O,144.218,2,2,1,41.13,1.1,192.0,239.94,273.37,CC(C)NC(=O)NC(C)C
+2-ethylhexyl cyanoacetate,CCCCC(CC)COC(=O)CC#N,Thermo_Experimental,C11H19NO2,197.278,8,0,3,50.09,2.66,32.9,337.99,356.75,CCCCC(CC)COC(=O)CC#N
+tributylamine,CCCCN(CCCC)CCCC,Thermo_Experimental,C12H27N,185.355,9,0,1,3.24,3.69,-70.0,212.78,388.19,CCCCN(CCCC)CCCC
+tetraethyl orthosilicate,CCO[Si](OCC)(OCC)OCC,Thermo_Experimental,C8H20O4Si,208.33,8,0,4,36.92,1.57,-85.0,168.0,363.42,CCO[Si](OCC)(OCC)OCC
+"1,2-epoxytetradecane",CCCCCCCCCCCCC1CO1,Thermo_Experimental,C14H28O,212.377,11,0,1,12.53,4.7,20.0,95.56,430.37,CCCCCCCCCCCCC1CO1
+butadiene monoxide,C=CC1CO1,Thermo_Experimental,C4H6O,70.091,1,0,1,12.53,0.57,-135.0,68.0,121.51,C=CC1CO1
+"1,3-dimethylbutylamine",CC(C)CC(C)N,Thermo_Experimental,C6H15N,101.193,2,1,1,26.02,1.38,155.5,108.81,212.7,CC(C)CC(C)N
+2-(octylthio)ethanol,CCCCCCCCSCCO,Thermo_Experimental,C10H22OS,190.352,9,1,2,20.23,3.07,0.0,98.0,358.77,CCCCCCCCSCCO
+ethyl caproate,CCCCCC(=O)OCC,Thermo_Experimental,C8H16O2,144.214,6,0,2,26.3,2.13,-67.0,165.0,273.37,CCCCCC(=O)OCC
+dodecylamine,CCCCCCCCCCCCN,Thermo_Experimental,C12H27N,185.355,10,1,1,26.02,3.87,29.0,259.0,388.19,CCCCCCCCCCCCN
+tributyl phosphate,CCCCOP(=O)(OCCCC)OCCCC,Thermo_Experimental,C12H27O4P,266.318,12,0,4,44.76,4.54,-80.0,289.0,379.38,CCCCOP(=O)(OCCCC)OCCCC
+diallyl disulfide,C=CCSSCC=C,Thermo_Experimental,C6H10S2,146.28,5,0,2,0.0,2.74,-50.49,79.0,212.73,C=CCSSCC=C
+"2,6-dimethyl-2-heptanol",CC(C)CCCC(C)(C)O,Thermo_Experimental,C9H20O,144.258,4,1,1,20.23,2.58,-10.0,170.0,296.51,CC(C)CCCC(C)(C)O
+1-vinylazepan-2-one,C=CN1CCCCCC1=O,Thermo_Experimental,C8H13NO,139.198,1,0,1,20.31,1.53,34.0,210.65,249.71,C=CN1CCCCCC1=O

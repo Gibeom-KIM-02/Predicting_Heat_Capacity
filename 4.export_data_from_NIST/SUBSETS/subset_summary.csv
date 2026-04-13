@@ -1,0 +1,4 @@
+﻿subset,rows,unique_compounds,output_csv,temperature_min,temperature_max,cp_min,cp_max,top_phases_json
+SetA,562,562,/home/users/Beom/work/1.Project/7.AIML/1.midterm_preparation/3.initial_ML_training/5.data_augmentation/0.NIST_thermopyl/SUBSETS/setA_strict_matched.csv,273.15,323.0,81.0,1877.1159672,"{""Liquid"": 542, ""Metastable liquid"": 16, ""Gas"": 4}"
+SetB,612,612,/home/users/Beom/work/1.Project/7.AIML/1.midterm_preparation/3.initial_ML_training/5.data_augmentation/0.NIST_thermopyl/SUBSETS/setB_relaxed_matched.csv,273.15,350.0,81.0,1877.1159672,"{""Liquid"": 591, ""Metastable liquid"": 17, ""Gas"": 4}"
+SetC,665,665,/home/users/Beom/work/1.Project/7.AIML/1.midterm_preparation/3.initial_ML_training/5.data_augmentation/0.NIST_thermopyl/SUBSETS/setC_exploratory_broad.csv,273.15,448.0,50.199,7971.73,"{""Liquid"": 638, ""Metastable liquid"": 22, ""Gas"": 5}"

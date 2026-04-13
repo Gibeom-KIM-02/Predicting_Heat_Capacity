@@ -1,0 +1,3 @@
+feature,importance,importance_std,explanation_type,pair,model
+molecular_weight,114.66453365424576,119.25999585945146,shap_tree_mean_abs,molecular_weight + melting_point,gbr
+melting_point,19.832687714183788,28.90327626001338,shap_tree_mean_abs,molecular_weight + melting_point,gbr

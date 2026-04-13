@@ -1,0 +1,30 @@
+original_dataset:
+  path: ./mid_project_verified.xlsx
+  sheet_name: Sheet1
+
+output_dir: ./MODEL_READY
+summary_output_name: model_ready_summary.csv
+
+representative_selection:
+  target_temperature_K: 298.15
+  target_pressure_kPa: 101.325
+
+subsets:
+  - name: SetA
+    path: ./SUBSETS/setA_strict_matched.csv
+    output_name: setA_model_ready.csv
+    group_label: NIST_XML_SetA
+
+  - name: SetB
+    path: ./SUBSETS/setB_relaxed_matched.csv
+    output_name: setB_model_ready.csv
+    group_label: NIST_XML_SetB
+
+  - name: SetC
+    path: ./SUBSETS/setC_exploratory_broad.csv
+    output_name: setC_model_ready.csv
+    group_label: NIST_XML_SetC
+
+union_output:
+  enabled: true
+  output_name: nist_model_ready_union.csv

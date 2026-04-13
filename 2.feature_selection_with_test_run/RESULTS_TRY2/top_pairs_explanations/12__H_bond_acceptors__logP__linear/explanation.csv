@@ -1,0 +1,3 @@
+feature,importance,importance_std,explanation_type,pair,model
+logP,130.2829159142272,107.28148186600926,shap_linear_mean_abs,H_bond_acceptors + logP,linear
+H_bond_acceptors,54.19615675047802,45.49547481029213,shap_linear_mean_abs,H_bond_acceptors + logP,linear

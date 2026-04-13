@@ -1,0 +1,3 @@
+feature,importance,importance_std,explanation_type,pair,model
+rotatable_bonds,102.4740606923405,74.56021421844595,shap_linear_mean_abs,rotatable_bonds + TPSA,elasticnet
+TPSA,4.134184279697227,4.2516273674957565,shap_linear_mean_abs,rotatable_bonds + TPSA,elasticnet

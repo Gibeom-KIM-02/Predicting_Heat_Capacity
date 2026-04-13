@@ -1,0 +1,3 @@
+feature,importance,importance_std,explanation_type
+rotatable_bonds,71.01745556369568,50.815673818921105,shap_linear_mean_abs
+molecular_weight,38.33795770853614,22.224618861594593,shap_linear_mean_abs

@@ -1,0 +1,3 @@
+feature,importance,importance_std,explanation_type,pair,model
+logP,99.92993060787008,72.35671187364105,shap_linear_mean_abs,logP + TPSA,linear
+TPSA,55.22129568367694,44.60908347528184,shap_linear_mean_abs,logP + TPSA,linear

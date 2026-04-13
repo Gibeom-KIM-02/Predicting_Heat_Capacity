@@ -1,0 +1,56 @@
+config_file: config.yaml
+data_file: mid_project_verified.xlsx
+sheet_name: null
+smiles_col: smiles
+name_col: name
+target_col: heat_capacity
+candidate_features:
+- molecular_weight
+- rotatable_bonds
+- H_bond_donors
+- H_bond_acceptors
+- logP
+- TPSA
+- boiling_point
+- melting_point
+fixed_pairs: null
+models:
+- linear
+- ridge
+- elasticnet
+- svr
+- rf
+- gbr
+top_k_pairs: 15
+cv_splits: 5
+cv_repeats: 10
+test_size: 0.2
+seed: 129
+output_dir: RESULTS_TRY3
+min_non_null_ratio: 0.7
+iqr_outlier_threshold: 0.0
+explain_top_pairs: true
+top_pairs_to_explain: 15
+no_shap: false
+save_shap_beeswarm: true
+save_shap_dependence: true
+holdout_model: null
+holdout_pair: null
+model_params:
+  ridge:
+    alpha: 1.0
+  elasticnet:
+    alpha: 0.01
+    l1_ratio: 0.3
+    max_iter: 20000
+  svr:
+    C: 10.0
+    epsilon: 0.1
+    gamma: scale
+  rf:
+    n_estimators: 500
+  gbr:
+    n_estimators: 300
+    learning_rate: 0.03
+    max_depth: 2
+    subsample: 0.9

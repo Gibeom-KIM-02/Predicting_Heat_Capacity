@@ -1,0 +1,3 @@
+feature,importance,importance_std,explanation_type,pair,model
+rotatable_bonds,106.63049694896465,113.926130442816,shap_linear_mean_abs,rotatable_bonds + melting_point,elasticnet
+melting_point,0.23915107010562542,0.17956133920960896,shap_linear_mean_abs,rotatable_bonds + melting_point,elasticnet

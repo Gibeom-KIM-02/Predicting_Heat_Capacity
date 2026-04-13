@@ -1,0 +1,2 @@
+feature_1,feature_2,model,n_samples_used,cv_mae_mean,cv_mae_std,cv_rmse_mean,cv_r2_mean
+molecular_weight,rotatable_bonds,elasticnet,834,73.87805459606383,21.476931107947742,261.41231512024615,0.5967065211502866

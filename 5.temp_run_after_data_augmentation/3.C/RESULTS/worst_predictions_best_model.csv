@@ -1,0 +1,16 @@
+name,canonical_smiles,molecular_weight,rotatable_bonds,heat_capacity,y_pred,abs_error
+3-anilinopropanenitrile,N#CCCNc1ccccc1,146.192999999999,3,6568.0,270.74972744147124,6297.250272558529
+"1-(cyanomethyl)-3-methylimidazolium 4,5-dicyano-2-(trifluoromethyl)imidazolide",C[n+]1ccn(CC#N)c1.N#Cc1nc(C(F)(F)F)[n-]c1C#N,307.239,1,84.2,468.46551917408067,384.2655191740807
+dibenzo-30-crown-10,c1ccc2c(c1)OCCOCCOCCOCCOc1ccccc1OCCOCCOCCOCCO2,536.618,0,1144.6,769.8425382558378,374.75746174416213
+tetrabutylphosphonium L-lysinate,CCCC[P+](CCCC)(CCCC)CCCC.NCCCC[C@H](N)C(=O)[O-],404.62,17,997.4,772.0556823082358,225.34431769176422
+"1-hexyl-4-(4-methyl-1-piperidinyl)pyridinium 1,1,1-trifluoro-N-[(trifluoromethyl)sulfonyl]methanesulfonamide",CCCCCCn1ccc(=[N+]2CCC(C)CC2)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,541.58,7,628.0,851.4509031898585,223.45090318985854
+1-butyl-3-methylimidazolium tris(pentafluoroethyl)trifluorophosphate,CCCCn1cc[n+](C)c1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,584.226,6,696.9832865298,898.7770043684662,201.79371783866623
+1H-perfluorooctane,FC(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,420.061999999999,6,480.1358887992,675.431292112717,195.29540331351694
+"1,2-dibromobenzene",Brc1ccccc1Br,235.906,0,179.76,360.7227810383572,180.9627810383572
+"1,11-dibromoundecane",BrCCCCCCCCCCCBr,314.105,10,394.92,574.0521532662742,179.1321532662742
+"1,3-dibromopropane",BrCCCBr,201.888999999999,2,163.73,335.83040054167884,172.10040054167885
+2-nitrobenzenesulfonamide,NS(=O)(=O)c1ccccc1[N+](=O)[O-],202.191,2,179.539696962708,336.24127262752876,156.70157566482075
+dichlorvos,COP(=O)(OC)OC=C(Cl)Cl,220.976,4,229.79,383.18620298175705,153.39620298175706
+"2,2-dimethyl-3-pentanol",CCC(O)C(C)(C)C,116.203999999999,1,352.6,208.56171480298212,144.0382851970179
+"N-ethyl-2-hydroxy-N,N-dimethylethanaminium 1-octanesulfonate",CCCCCCCCS(=O)(=O)[O-].CC[N+](C)(C)CCO,311.488,10,711.0,570.4917153567856,140.50828464321444
+1-butyl-1-methylpyrrolidinium tris(pentafluoroethyl)trifluorophosphate,CCCC[N+]1(C)CCCC1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F,587.27,6,769.0,902.918377313244,133.91837731324404
