@@ -1,0 +1,11 @@
+﻿step,rows_before,rows_after,rows_removed
+require_smiles,137477,136151,1326
+require_positive_heat_capacity,136151,136143,8
+require_positive_temperature,136143,136143,0
+allowed_property_phases,136143,136143,0
+temperature_range_50.0_1500.0,136143,113935,22208
+pressure_range_1.0_20000.0_keepnan_True,113935,113038,897
+heat_capacity_range_1e-06_10000.0,113038,112950,88
+require_molecular_weight,112950,112950,0
+drop_exact_duplicates,112950,112368,582
+final,137477,112368,25109

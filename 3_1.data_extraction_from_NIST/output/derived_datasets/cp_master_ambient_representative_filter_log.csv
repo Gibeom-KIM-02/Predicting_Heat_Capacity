@@ -1,0 +1,6 @@
+﻿step,rows_before,rows_after,rows_removed
+cp_only_filter,112368,95108,17260
+temperature_window_298.15_pm_30.0,95108,23995,71113
+pressure_window_101.325_pm_20.0_keepnan_False,23995,22633,1362
+cp_outlier_filter_disabled,22633,22633,0
+representative_dedup_by_structure_key|phase_coarse,22633,1291,21342

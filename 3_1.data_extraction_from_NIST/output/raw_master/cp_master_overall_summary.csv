@@ -1,0 +1,2 @@
+﻿rows,unique_compounds,unique_inchikeys,phases,phase_coarse,csv_path,xlsx_path
+137477,1331,1324,5,4,/home/users/Beom/work/1.Project/7.AIML/1.midterm_preparation/4.export_data_from_NIST_new3/output/raw_master/cp_master_all_phases.csv,/home/users/Beom/work/1.Project/7.AIML/1.midterm_preparation/4.export_data_from_NIST_new3/output/raw_master/cp_master_all_phases.xlsx

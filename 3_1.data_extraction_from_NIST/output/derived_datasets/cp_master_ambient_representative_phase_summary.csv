@@ -1,0 +1,5 @@
+﻿phase,rows,unique_compounds,unique_inchikeys,temperature_min_K,temperature_max_K,pressure_min_kPa,pressure_max_kPa,cp_min,cp_max,cp_median
+solid,688,688,688,270.0,328.1,100.0,101.325,12.631,3363.962,233.27661879
+liquid,578,578,578,273.15,328.08,83.0,120.0,75.3,7971.73,315.06554907328
+gas,17,17,17,293.15,300.0,100.0,101.325,82.2,469.0,183.58332096
+glass,8,8,8,295.7,298.34,101.325,101.325,44.06,470.91,160.87599999999998

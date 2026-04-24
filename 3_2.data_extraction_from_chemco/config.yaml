@@ -1,0 +1,48 @@
+paths:
+  input_dir: "input"
+  output_dir: "output"
+  log_dir: "logs"
+
+files:
+  input_files:
+    - "PubChem_compound_CID.csv"
+      #    - "PubChem_compound_CID_2.csv"
+  output_file: "PubChem_Cp_Tboil_Tfus_data.csv"
+  summary_file: "PubChem_scrape_summary.txt"
+  cp_only_file: "PubChem_Cp_only.csv"
+  cp_liquid_file: "PubChem_Cp_liquid.csv"
+  cp_solid_file: "PubChem_Cp_solid.csv"
+  cp_gas_file: "PubChem_Cp_gas.csv"
+
+logging:
+  log_file: "chemeo_scrape_log.txt"
+  log_level: "INFO"
+
+website:
+  base_url: "https://www.chemeo.com"
+  request_timeout: 15.0
+  verify_ssl: false
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+
+concurrency:
+  concurrency_limit: 5
+  max_keepalive_connections: 5
+  max_connections: 10
+
+retry:
+  max_retries: 3
+  retry_base_delay_sec: 1.0
+  retry_status_codes: [429, 500, 502, 503, 504]
+
+parsing:
+  max_candidates_to_check: 10
+  target_temperature: 298.15
+  temperature_tolerance: 30.0
+
+saving:
+  partial_save_every: 100
+  partial_suffix: "_partial"
+  output_encoding: "utf-8-sig"
+  sleep_min_sec: 0.3
+  sleep_max_sec: 0.8
+

@@ -1,0 +1,363 @@
+formula,chemical_compound_name,Cp_298_J_per_molK,calculation_method,comment,smiles,pubchem_cid,pubchem_matched_name,lookup_status,smiles_found
+C5H8O,cyclopentanone,96.122,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=C1CCCC1,8452.0,cyclopentanone,ok,True
+C4H10O2,"2,3-butanediol",127.028,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,"(S,S) || (R,R)",CC(O)C(C)O,262.0,"butane-2,3-diol",ok,True
+C4H10O2,"2,3-butanediol",126.761,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,"(R,S)",CC(O)C(C)O,262.0,"butane-2,3-diol",ok,True
+C3H6O,propanal,75.635,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC=O,527.0,propanal,ok,True
+C4H6O,(E)-2-butenal,88.899,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C\C=O,643950.0,(Z)-but-2-enal,ok,True
+C4H8O2,"1,4-dioxane",92.275,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1COCCO1,31275.0,"1,4-dioxane",ok,True
+CO2,carbon dioxide,37.111,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=C=O,280.0,carbon dioxide,ok,True
+C2H7N,dimethylamine,67.37,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CNC,674.0,N-methylmethanamine,ok,True
+C4H9NO,"N,N-dimethylethanamide",117.589,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(=O)N(C)C,31374.0,"N,N-dimethylacetamide",ok,True
+C4H2N2,cis-2-butenedinitrile,85.258,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,,,,failed:None,False
+C5H12O,2-methyl-1-butanol,130.287,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CCC(C)CO,8723.0,2-methylbutan-1-ol,ok,True
+C4H11N,2-butanamine,112.926,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CCC(C)N,24874.0,butan-2-amine,ok,True
+C4H5N,(Z)-2-butenenitrile,85.004,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C\C#N,643774.0,(Z)-but-2-enenitrile,ok,True
+C4H5N,(E)-2-butenenitrile,85.846,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C/C#N,637921.0,(E)-but-2-enenitrile,ok,True
+C4H8,2-methylpropene,86.177,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C(C)C,8255.0,2-methylprop-1-ene,ok,True
+C6H12,(E)-3-hexene,126.365,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC/C=C/CC,638066.0,(E)-hex-3-ene,ok,True
+C5H8,"(Z)-1,3-pentadiene",97.21,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C/C=C\C,643785.0,"(3Z)-penta-1,3-diene",ok,True
+C2H7NO,2-aminoethan-1-ol,82.129,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,NCCO,700.0,2-aminoethanol,ok,True
+C6H12,(E)-2-hexene,126.68,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C/CCC,639661.0,(E)-hex-2-ene,ok,True
+C4H8O2,ethyl acetate,111.453,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCOC(C)=O,8857.0,ethyl acetate,ok,True
+C5H8,cyclopentene,80.95,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1=CCCC1,8882.0,cyclopentene,ok,True
+C6H12,(Z)-4-methyl-2-pentene,128.949,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C\C(C)C,5326159.0,(Z)-4-methylpent-2-ene,ok,True
+C6H12,(Z)-3-methyl-2-pentene,129.573,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C(/C)CC,643935.0,(Z)-3-methylpent-2-ene,ok,True
+C5H8,"2,3-pentadiene",100.922,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC=C=CC,136378.0,"penta-2,3-diene",ok,True
+C6H12,(Z)-3-hexene,125.71,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC/C=C\CC,643783.0,(Z)-hex-3-ene,ok,True
+C5H12O,2-methoxy-2-methylpropane,133.662,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,COC(C)(C)C,15413.0,2-methoxy-2-methylpropane,ok,True
+N2O,nitrous oxide,38.152,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,[N-]=[N+]=O,948.0,nitrous oxide,ok,True
+C4H6O2,cyclopropanecarboxylic acid,95.589,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=C(O)C1CC1,15655.0,cyclopropanecarboxylic acid,ok,True
+C5H11N,cyclopentanamine,109.495,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,NC1CCCC1,2906.0,cyclopentanamine,ok,True
+C2N2,ethanedinitrile,55.692,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,N#CC#N,9999.0,oxalonitrile,ok,True
+C5H8,"(E)-1,3-pentadiene",97.747,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C/C=C/C,62204.0,"(3E)-penta-1,3-diene",ok,True
+HNO2,nitrous acid,44.953,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=NO,24529.0,nitrous acid,ok,True
+C4H6O,2-methyl-1-propen-1-one,92.496,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)=C=O,136395.0,2-methylprop-1-en-1-one,ok,True
+N2O3,nitrogen oxide (N2O3),68.905,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=N[N+](=O)[O-],61526.0,N-oxonitramide,ok,True
+C4H8,cyclobutane,70.918,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1CCC1,9250.0,cyclobutane,ok,True
+C5H10,cyclopentane,87.569,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1CCCC1,9253.0,cyclopentane,ok,True
+C3H4N2,1H-pyrazole,64.896,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,c1cn[nH]c1,1048.0,1H-pyrazole,ok,True
+C3H3NO,"1,2-oxazole",60.707,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,c1cnoc1,9254.0,"1,2-oxazole",ok,True
+C3H3NO,"1,3-oxazole",59.685,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,c1cocn1,9255.0,"1,3-oxazole",ok,True
+C4H4N2,"1,2-diazabenzene",74.284,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,c1ccnnc1,9259.0,pyridazine,ok,True
+C4H4N2,pyrazine,72.839,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,c1cnccn1,9261.0,pyrazine,ok,True
+H4N2,hydrazine,46.414,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,NN,9321.0,hydrazine,ok,True
+C4H11NO,"N,N-diethylhydroxylamine",127.66,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCN(O)CC,19463.0,"N,N-diethylhydroxylamine",ok,True
+C3H4,"1,2-propadiene",58.186,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C=C,10037.0,"propa-1,2-diene",ok,True
+C2H2O,ethenone,51.451,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C=O,10038.0,ethenone,ok,True
+C5H12,"2,2-dimethylpropane",118.681,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)(C)C,10041.0,"2,2-dimethylpropane",ok,True
+CH2O,methanal,35.305,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=O,712.0,formaldehyde,ok,True
+C4H6,2-butyne,81.613,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC#CC,10419.0,but-2-yne,ok,True
+C3H6O,oxetane,63.329,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1COC1,10423.0,oxetane,ok,True
+C3H8O2,"propan-1,3-diol",99.668,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,OCCCO,10442.0,"propane-1,3-diol",ok,True
+C4H8O2,"1,3-dioxane",91.527,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1COCOC1,10450.0,"1,3-dioxane",ok,True
+C5H10,2-methyl-2-butene,109.401,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC=C(C)C,10553.0,2-methylbut-2-ene,ok,True
+C6H10,"2,3-dimethyl-1,3-butadiene",120.328,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C(C)C(=C)C,10566.0,"2,3-dimethylbuta-1,3-diene",ok,True
+C3H8O,ethyl methyl ether,84.333,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCOC,10903.0,methoxyethane,ok,True
+C5H6,"1,3-cyclopentadiene",74.857,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1=CCC=C1,7612.0,"cyclopenta-1,3-diene",ok,True
+C4H8O2,methyl propanoate,111.276,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(=O)OC,11124.0,methyl propanoate,ok,True
+C3H6O2,"2,3-epoxy-1-propanol",84.618,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,OCC1CO1,11164.0,oxiran-2-ylmethanol,ok,True
+C6H12,"3,3-dimethyl-1-butene",131.239,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CC(C)(C)C,11210.0,"3,3-dimethylbut-1-ene",ok,True
+C5H10,3-methyl-1-butene,106.622,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CC(C)C,11239.0,3-methylbut-1-ene,ok,True
+C5H10,2-methyl-1-butene,106.498,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C(C)CC,11240.0,2-methylbut-1-ene,ok,True
+C6H12,"2,3-dimethyl-1-butene",129.639,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C(C)C(C)C,11249.0,"2,3-dimethylbut-1-ene",ok,True
+C6H12,"2,3-dimethyl-2-butene",133.841,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)=C(C)C,11250.0,"2,3-dimethylbut-2-ene",ok,True
+C5H10O,3-methyl-2-butanone,122.776,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(=O)C(C)C,11251.0,3-methylbutan-2-one,ok,True
+C2H5NO2,2-aminoacetic acid,87.045,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,NCC(=O)O,750.0,2-aminoacetic acid,ok,True
+C3H8O3,glycerol,116.224,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,OCC(O)CO,753.0,"propane-1,2,3-triol",ok,True
+CH4N2O,urea,73.868,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,NC(N)=O,1176.0,urea,ok,True
+C3H8O2,"1,2-propanediol",103.031,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CC(O)CO,1030.0,"propane-1,2-diol",ok,True
+C3H4O2,2-oxetanone,69.885,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=C1CCO1,2365.0,oxetan-2-one,ok,True
+C5H12O,3-pentanol,130.63,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(O)CC,11428.0,pentan-3-ol,ok,True
+C4H8,(Z)-2-butene,85.435,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C\C,5287573.0,(Z)-but-2-ene,ok,True
+C4H6,"1,2-butadiene",79.115,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C=CC,11535.0,"buta-1,2-diene",ok,True
+C5H10O,3-methylbutanal,119.236,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)CC=O,11552.0,3-methylbutanal,ok,True
+C5H8,"1,4-pentadiene",95.877,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CCC=C,11587.0,"penta-1,4-diene",ok,True
+C5H8,"1,2-pentadiene",99.336,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C=CCC,11588.0,"penta-1,2-diene",ok,True
+C6H10,"1,5-hexadiene",116.465,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CCCC=C,11598.0,"hexa-1,5-diene",ok,True
+C6H8,"1,3-cyclohexadiene",93.685,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1=CCCC=C1,11605.0,"cyclohexa-1,3-diene",ok,True
+C4H8,methylcyclopropane,78.409,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC1CC1,11657.0,methylcyclopropane,ok,True
+C5H8,3-methyl-1-butyne,102.963,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C#CC(C)C,69019.0,3-methylbut-1-yne,ok,True
+C5H8,"3-methyl-1,2-butadiene",102.409,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C=C(C)C,11714.0,"3-methylbuta-1,2-diene",ok,True
+C4H10O,isopropyl methyl ether,108.252,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,COC(C)C,11721.0,2-methoxypropane,ok,True
+C5H12O,3-methyl-2-butanol,133.098,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CC(C)C(C)O,11732.0,3-methylbutan-2-ol,ok,True
+C4H10O,diethyl ether,105.31,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCOCC,3283.0,ethoxyethane,ok,True
+C5H12O,pentan-2-ol,130.404,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CCCC(C)O,22386.0,pentan-2-ol,ok,True
+C2H5NO,ethanamide,77.843,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(N)=O,178.0,acetamide,ok,True
+C4H10,butane,91.679,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCC,7843.0,butane,ok,True
+C4H8,1-butene,83.47,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CCC,7844.0,but-1-ene,ok,True
+C4H6,"1,3-butadiene",75.056,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CC=C,7845.0,"buta-1,3-diene",ok,True
+C6H12,(E)-3-methyl-2-pentene,129.856,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C(\C)CC,642661.0,(E)-3-methylpent-2-ene,ok,True
+C4H6,1-butyne,79.937,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C#CCC,7846.0,but-1-yne,ok,True
+C3H9N,propan-1-amine,89.64,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCN,7852.0,propan-1-amine,ok,True
+C4H8,(E)-2-butene,85.86,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C/C,62695.0,(E)-but-2-ene,ok,True
+C3H3N,acrylonitrile,63.265,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CC#N,7855.0,prop-2-enenitrile,ok,True
+C2H8N2,"ethane-1,2-diamine",87.008,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,NCCN,3301.0,"ethane-1,2-diamine",ok,True
+C5H8,1-pentyne,100.425,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C#CCCC,12309.0,pent-1-yne,ok,True
+C5H10,(Z)-2-pentene,105.555,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C\CC,5326160.0,(Z)-pent-2-ene,ok,True
+C5H8,2-pentyne,101.458,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC#CCC,12310.0,pent-2-yne,ok,True
+C5H12O,butyl methyl ether,125.197,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCOC,12338.0,1-methoxybutane,ok,True
+C5H12O,ethyl propyl ether,125.69,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCOCC,12340.0,1-ethoxypropane,ok,True
+C6H8,"1,4-cyclohexadiene",93.44,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1=CCC=CC1,12343.0,"cyclohexa-1,4-diene",ok,True
+C2H2O2,ethanedial,59.572,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=CC=O,7860.0,oxaldehyde,ok,True
+CO,carbon monoxide,29.125,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,[C-]#[O+],281.0,carbon monoxide,ok,True
+C2H4O2,methyl methanoate,65.955,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,COC=O,7865.0,methyl formate,ok,True
+C2H6O,ethanol,65.734,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCO,702.0,ethanol,ok,True
+CH2O2,formic acid,44.87,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=CO,284.0,formic acid,ok,True
+C2H4O2,acetic acid,68.864,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(=O)O,176.0,acetic acid,ok,True
+C5H10,(E)-2-pentene,106.107,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C/CC,5326161.0,(E)-pent-2-ene,ok,True
+C6H12,(E)-4-methyl-2-pentene,129.393,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C/C(C)C,172092.0,(E)-4-methylpent-2-ene,ok,True
+C4H4O2,4-methylene-2-oxetanone,87.026,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C1CC(=O)O1,12661.0,4-methylideneoxetan-2-one,ok,True
+CH4O,methanol,45.585,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CO,887.0,methanol,ok,True
+C3H8O,propan-2-ol,89.074,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)O,3776.0,propan-2-ol,ok,True
+C3H6O,acetone,79.632,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)=O,180.0,propan-2-one,ok,True
+C3H7NO,dimethylformamide,92.883,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CN(C)C=O,6228.0,"N,N-dimethylformamide",ok,True
+C2H6O2,dimethyl peroxide,80.281,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,COOC,136492.0,methylperoxymethane,ok,True
+C6H10,1-hexyne,120.976,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C#CCCCC,12732.0,hex-1-yne,ok,True
+C6H10,1-methylcyclopentene,105.709,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC1=CCCC1,12746.0,1-methylcyclopentene,ok,True
+C6H14,2-methylpentane,135.363,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCC(C)C,7892.0,2-methylpentane,ok,True
+C3H8O,propan-1-ol,86.267,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCO,1031.0,propan-1-ol,ok,True
+C4H10O,butan-1-ol,106.733,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCO,263.0,butan-1-ol,ok,True
+C6H6,benzene,81.815,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,c1ccccc1,241.0,benzene,ok,True
+C4H8O2,butanoic acid,109.568,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCC(=O)O,264.0,butanoic acid,ok,True
+CH4,methane,35.554,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C,297.0,methane,ok,True
+C3H8,propane,71.126,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC,6334.0,propane,ok,True
+C3H7NO2,1-nitropropane,102.091,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC[N+](=O)[O-],7903.0,1-nitropropane,ok,True
+C2H7N,ethylamine,69.038,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCN,6341.0,ethanamine,ok,True
+C2H4O,ethanal,55.658,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC=O,177.0,acetaldehyde,ok,True
+CH3NO,formamide,53.769,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,NC=O,713.0,formamide,ok,True
+C4H6O2,vinyl acetate,104.104,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=COC(C)=O,7904.0,ethenyl acetate,ok,True
+C3H6,cyclopropane,55.367,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1CC1,6351.0,cyclopropane,ok,True
+C2H4O,oxirane,47.441,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1CO1,6354.0,oxirane,ok,True
+C4H10,2-methylpropane,94.045,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)C,6360.0,2-methylpropane,ok,True
+C3H9N,2-propanamine,92.13,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)N,6363.0,propan-2-amine,ok,True
+C3H9N,trimethylamine,88.423,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CN(C)C,1146.0,"N,N-dimethylmethanamine",ok,True
+C3H6O,methyloxirane,71.043,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CC1CO1,6378.0,2-methyloxirane,ok,True
+C4H11N,2-methyl-2-propanamine,116.998,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)(C)N,6385.0,2-methylpropan-2-amine,ok,True
+C4H10O,2-methylpropan-2-ol,114.263,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)(C)O,6386.0,2-methylpropan-2-ol,ok,True
+C6H14,"2,2-dimethylbutane",139.52,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(C)(C)C,6403.0,"2,2-dimethylbutane",ok,True
+C5H12O,2-methylbutan-2-ol,135.054,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(C)(C)O,6405.0,2-methylbutan-2-ol,ok,True
+C6H12,3-methyl-1-pentene,127.548,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,C=CC(C)CC,12969.0,3-methylpent-1-ene,ok,True
+C6H12,2-ethyl-1-butene,126.786,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C(CC)CC,12970.0,3-methylidenepentane,ok,True
+C6H12,2-methyl-1-pentene,127.039,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C(C)CCC,12986.0,2-methylpent-1-ene,ok,True
+C4H2N2,"trans-1,2-dicyanoethylene",86.134,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,N#C/C=C/C#N,637930.0,(E)-but-2-enedinitrile,ok,True
+C3H7N,cyclopropanamine,76.35,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,NC1CC1,69828.0,cyclopropanamine,ok,True
+H3N,ammonia,35.164,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,N,222.0,azane,ok,True
+C6H12,(Z)-2-hexene,126.043,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C\CCC,643835.0,(Z)-hex-2-ene,ok,True
+HNO3,nitric acid,53.514,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=[N+]([O-])O,944.0,nitric acid,ok,True
+H2O2,hydrogen peroxide,42.701,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,OO,784.0,hydrogen peroxide,ok,True
+N2,nitrogen,29.11,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,N#N,947.0,molecular nitrogen,ok,True
+H2O,water,33.484,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O,962.0,oxidane,ok,True
+H3NO,hydroxyamine,43.665,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,NO,787.0,hydroxylamine,ok,True
+C5H12,2-methylbutane,114.818,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(C)C,6556.0,2-methylbutane,ok,True
+C5H8,"2-methyl-1,3-butadiene",97.837,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CC(=C)C,6557.0,"2-methylbuta-1,3-diene",ok,True
+C4H11N,2-methyl-1-propanamine,112.932,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)CN,6558.0,2-methylpropan-1-amine,ok,True
+C4H7N,2-methylpropanenitrile,94.755,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)C#N,6559.0,2-methylpropanenitrile,ok,True
+C4H10O,2-methyl-1-propanol,109.597,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)CO,6560.0,2-methylpropan-1-ol,ok,True
+C4H10O,butan-2-ol,109.848,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CCC(C)O,6568.0,butan-2-ol,ok,True
+C4H8O,butanone,100.022,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(C)=O,6569.0,butan-2-one,ok,True
+C3H5NO,propenamide,89.443,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CC(N)=O,6579.0,prop-2-enamide,ok,True
+C3H6O2,propanoic acid,89.159,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(=O)O,1032.0,propanoic acid,ok,True
+C3H4O2,propenoic acid,80.178,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CC(=O)O,6581.0,prop-2-enoic acid,ok,True
+C3H6O2,methyl ethanoate,90.739,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,COC(C)=O,6584.0,methyl acetate,ok,True
+C2H5NO2,nitroethane,82.172,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC[N+](=O)[O-],6587.0,1-nitroethane,ok,True
+C6H14,"2,3-dimethylbutane",137.925,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)C(C)C,6589.0,"2,3-dimethylbutane",ok,True
+C3H7NO2,2-nitropropane,105.426,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)[N+](=O)[O-],398.0,2-nitropropane,ok,True
+C5H12,pentane,112.194,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCC,8003.0,pentane,ok,True
+C6H14,3-methylpentane,135.581,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(C)CC,7282.0,3-methylpentane,ok,True
+C5H10O,2-methylbutanal,119.405,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CCC(C)C=O,7284.0,2-methylbutanal,ok,True
+C5H10,1-pentene,104.045,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CCCC,8004.0,pent-1-ene,ok,True
+C5H10O,pentan-3-one,119.109,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(=O)CC,7288.0,pentan-3-one,ok,True
+C3H6O3,methyl hydroxyethanoate,104.789,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,,,,failed:None,False
+C6H12,methylcyclopentane,111.529,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC1CCCC1,7296.0,methylcyclopentane,ok,True
+C5H7N,N-methylpyrrole,94.004,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,Cn1cccc1,7304.0,1-methylpyrrole,ok,True
+C4H11N,1-butanamine,110.111,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCN,8007.0,butan-1-amine,ok,True
+C4H5N,3-butenenitrile,84.109,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CCC#N,8009.0,but-3-enenitrile,ok,True
+C3H8O2,dimethoxymethane,96.786,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,COCOC,8020.0,dimethoxymethane,ok,True
+C4H11N,diethylamine,109.092,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCNCC,8021.0,N-ethylethanamine,ok,True
+C4H8O,ethoxyethene,97.23,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=COCC,8023.0,ethenoxyethane,ok,True
+C3H6O2,ethyl methanoate,86.652,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCOC=O,8025.0,ethyl formate,ok,True
+C4H5N,pyrrole,71.602,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,c1cc[nH]c1,8027.0,1H-pyrrole,ok,True
+C4H8O,tetrahydrofuran,80.659,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1CCOC1,8028.0,oxolane,ok,True
+C4H4O,furan,65.214,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,c1ccoc1,8029.0,furan,ok,True
+C6H14,hexane,132.725,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCCC,8058.0,hexane,ok,True
+C5H13N,1-pentanamine,130.648,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCCN,8060.0,pentan-1-amine,ok,True
+C4H4N2,butanedinitrile,93.029,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,N#CCCC#N,8062.0,butanedinitrile,ok,True
+C5H10O,pentanal,116.581,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCC=O,8063.0,pentanal,ok,True
+C4H8O2,propyl methanoate,107.186,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCOC=O,8073.0,propyl formate,ok,True
+C6H12,cyclohexane,105.767,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1CCCCC1,8078.0,cyclohexane,ok,True
+C6H10,cyclohexene,99.809,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1=CCCCC1,8079.0,cyclohexene,ok,True
+C5H5N,pyridine,76.972,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,c1ccncc1,1049.0,pyridine,ok,True
+C3H6O3,"1,3,5-trioxane",83.571,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1OCOCO1,8081.0,"1,3,5-trioxane",ok,True
+C4H10O2,"3-methyl-2,4-dioxapentane",121.531,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,COC(C)OC,10795.0,"1,1-dimethoxyethane",ok,True
+C4H10O,1-methoxypropane,104.762,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCOC,11182.0,1-methoxypropane,ok,True
+C4H6O2,.gamma.-butyrolactone,86.85,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=C1CCCO1,7302.0,oxolan-2-one,ok,True
+C3H6O,2-propenol,77.757,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CCO,7858.0,prop-2-en-1-ol,ok,True
+C4H10O2,"1,3-butanediol",122.922,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CC(O)CCO,7896.0,"butane-1,3-diol",ok,True
+C3H2N2,propanedinitrile,72.892,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,N#CCC#N,8010.0,propanedinitrile,ok,True
+C4H6O,divinyl ether,89.714,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=COC=C,8024.0,ethenoxyethene,ok,True
+C4H9N,pyrrolidine,84.19,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1CCNC1,31268.0,pyrrolidine,ok,True
+C2H5N,azacyclopropane,50.878,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1CN1,9033.0,aziridine,ok,True
+C4H8O2,"2-methyl-1,3-dioxolane",97.726,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC1OCCO1,10342.0,"2-methyl-1,3-dioxolane",ok,True
+C4H5N,cyclopropanecarbonitrile,78.47,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,N#CC1CC1,79637.0,cyclopropanecarbonitrile,ok,True
+C3H4,1-propyne,60.192,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C#CC,6335.0,prop-1-yne,ok,True
+CH3NO2,nitromethane,61.319,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C[N+](=O)[O-],6375.0,nitromethane,ok,True
+C6H10,3-methylcyclopentene,104.61,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CC1C=CCC1,14263.0,3-methylcyclopentene,ok,True
+C2H3N,acetonitrile,51.895,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC#N,6342.0,acetonitrile,ok,True
+C3H6O3,dimethyl carbonate,102.179,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,COC(=O)OC,12021.0,dimethyl carbonate,ok,True
+N2O4,dinitrogen tetroxide,77.564,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=[N+]([O-])[N+](=O)[O-],25352.0,,ok,True
+C4H10O2,"1,2-butanediol",123.662,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CCC(O)CO,11429.0,"butane-1,2-diol",ok,True
+C7H14,3-ethyl-1-pentene,148.473,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CC(CC)CC,19951.0,3-ethylpent-1-ene,ok,True
+C3H4O3,ethylene carbonate,78.339,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=C1OCCO1,7303.0,"1,3-dioxolan-2-one",ok,True
+C2H6O,dimethyl ether,63.333,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,COC,8254.0,methoxymethane,ok,True
+C4H4,1-buten-3-yne,71.707,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C#CC=C,12720.0,but-1-en-3-yne,ok,True
+C4H6O,"2,3-dihydrofuran",74.684,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1=COCC1,70934.0,"2,3-dihydrofuran",ok,True
+C6H15N,triethylamine,152.349,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCN(CC)CC,8471.0,"N,N-diethylethanamine",ok,True
+C5H8O2,"2,4-pentanedione",123.275,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,tautomer: (Z)-4-hydroxypent-3-en-2-one,CC(=O)CC(C)=O,31261.0,"pentane-2,4-dione",ok,True
+C4H5NO2,succinimide,98.606,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=C1CCC(=O)N1,11439.0,"pyrrolidine-2,5-dione",ok,True
+C7H14,"1,cis-2-dimethylcyclopentane",134.579,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C[C@@H]1CCC[C@@H]1C,14498.0,"cis-(1S,2R)-1,2-dimethylcyclopentane",ok,True
+C7H14,"1,1-dimethylcyclopentane",136.142,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC1(C)CCCC1,15421.0,"1,1-dimethylcyclopentane",ok,True
+H2,hydrogen,29.121,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,[HH],783.0,molecular hydrogen,ok,True
+C7H14,2-methyl-1-hexene,147.593,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C(C)CCCC,22468.0,2-methylhex-1-ene,ok,True
+C5H8O2,ethyl propenoate,122.702,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CC(=O)OCC,8821.0,ethyl prop-2-enoate,ok,True
+C6H15N,dipropylamine,150.209,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCNCCC,8902.0,N-propylpropan-1-amine,ok,True
+C7H14,(Z)-3-heptene,146.142,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC/C=C\CCC,5357258.0,(Z)-hept-3-ene,ok,True
+C7H14,ethylcyclopentane,132.198,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC1CCCC1,15431.0,ethylcyclopentane,ok,True
+N2O5,dinitrogen pentoxide,91.516,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=[N+]([O-])O[N+](=O)[O-],66242.0,nitro nitrate,ok,True
+C7H14,"(1R,3R)-1,3-dimethylcyclopentane",134.839,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C[C@@H]1CC[C@@H](C)C1,15656.0,"trans-(1R,3R)-1,3-dimethylcyclopentane",ok,True
+C7H14,"1,cis-3-dimethylcyclopentane",135.235,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,,,,failed:None,False
+C7H14,3-methyl-1-hexene,148.096,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,C=CC(C)CCC,18848.0,3-methylhex-1-ene,ok,True
+C7H14,4-methyl-1-hexene,148.016,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,C=CCC(C)CC,19589.0,4-methylhex-1-ene,ok,True
+C5H12O2,diethoxymethane,138.445,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCOCOCC,10024.0,ethoxymethoxyethane,ok,True
+C7H16,"2,2,3-trimethylbutane",162.691,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)C(C)(C)C,10044.0,"2,2,3-trimethylbutane",ok,True
+C5H10O2,3-methylbutanoic acid,132.803,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)CC(=O)O,10430.0,3-methylbutanoic acid,ok,True
+C4H5NO2,methyl cyanoethanoate,112.117,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,COC(=O)CC#N,7747.0,methyl 2-cyanoacetate,ok,True
+C5H10O2,ethyl propanoate,131.967,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCOC(=O)CC,7749.0,ethyl propanoate,ok,True
+C5H10O2,2-methylpropyl methanoate,130.524,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,,,,failed:None,False
+C5H6N2,pentanedinitrile,113.061,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,N#CCCCC#N,10994.0,pentanedinitrile,ok,True
+C7H16,"3,3-dimethylpentane",160.32,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(C)(C)CC,11229.0,"3,3-dimethylpentane",ok,True
+C7H16,"2,3-dimethylpentane",158.723,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CCC(C)C(C)C,11260.0,"2,3-dimethylpentane",ok,True
+C6H12O,3-methyl-2-pentanone,143.48,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CCC(C)C(C)=O,11262.0,3-methylpentan-2-one,ok,True
+C6H12O,2-methyl-3-pentanone,143.173,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(=O)C(C)C,11265.0,2-methylpentan-3-one,ok,True
+C7H16,3-methylhexane,156.149,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CCCC(C)CC,11507.0,3-methylhexane,ok,True
+C6H12O,3-hexanone,140.887,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCC(=O)CC,11509.0,hexan-3-one,ok,True
+C7H16,"2,2-dimethylpentane",160.213,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCC(C)(C)C,11542.0,"2,2-dimethylpentane",ok,True
+C7H16,2-methylhexane,155.908,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCC(C)C,11582.0,2-methylhexane,ok,True
+C7H14,1-heptene,145.11,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=CCCCCC,11610.0,hept-1-ene,ok,True
+C5H10O2,butyl methanoate,127.709,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCOC=O,11614.0,butyl formate,ok,True
+C7H14,"2,3,3-trimethyl-1-butene",153.851,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C(C)C(C)(C)C,11669.0,"2,3,3-trimethylbut-1-ene",ok,True
+C4H7NO,2-pyrrolidinone,92.271,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=C1CCCN1,12025.0,pyrrolidin-2-one,ok,True
+C7H16,3-ethylpentane,156.008,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(CC)CC,12048.0,3-ethylpentane,ok,True
+C5H10O2,methyl butanoate,131.612,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCC(=O)OC,12180.0,methyl butanoate,ok,True
+C6H12,2-methyl-2-pentene,129.56,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC=C(C)C,12243.0,2-methylpent-2-ene,ok,True
+C6H7N,aniline,107.421,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,Nc1ccccc1,6115.0,aniline,ok,True
+C6H14O,2-hexanol,150.949,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CCCCC(C)O,12297.0,hexan-2-ol,ok,True
+C6H14O,butyl ethyl ether,146.211,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCOCC,12355.0,1-ethoxybutane,ok,True
+C7H12,cycloheptene,120.416,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1=CCCCCC1,12363.0,cycloheptene,ok,True
+C6H14O,2-ethoxy-2-methylpropane,154.713,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCOC(C)(C)C,12512.0,2-ethoxy-2-methylpropane,ok,True
+C7H14,(Z)-2-heptene,146.597,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C/C=C\CCCC,643836.0,(Z)-hept-2-ene,ok,True
+C6H12O,hexanal,137.124,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCCC=O,6184.0,hexanal,ok,True
+C5H12O,pentan-1-ol,127.277,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCCO,6276.0,pentan-1-ol,ok,True
+C2H4,ethene,42.493,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C,6325.0,ethene,ok,True
+C2H2,ethyne,43.704,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C#C,6326.0,acetylene,ok,True
+CH5N,methanamine,48.88,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CN,6329.0,methanamine,ok,True
+C7H16,"2,4-dimethylpentane",158.434,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)CC(C)C,7907.0,"2,4-dimethylpentane",ok,True
+C6H12O,4-methylpentan-2-one,143.394,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(=O)CC(C)C,7909.0,4-methylpentan-2-one,ok,True
+C6H14O,4-methyl-2-pentanol,153.609,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,CC(C)CC(C)O,7910.0,4-methylpentan-2-ol,ok,True
+C6H12O,"3,3-dimethyl-2-butanone",147.657,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(=O)C(C)(C)C,6416.0,"3,3-dimethylbutan-2-one",ok,True
+C5H10O2,"2,2-dimethylpropanoic acid",137.346,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)(C)C(=O)O,6417.0,"2,2-dimethylpropanoic acid",ok,True
+C6H14O,diisopropyl ether,153.09,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)OC(C)C,7914.0,2-propan-2-yloxypropane,ok,True
+C5H10O2,1-methylethyl ethanoate,135.282,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,,,,failed:None,False
+C4H6O3,ethanoic anhydride,119.653,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(=O)OC(C)=O,7918.0,acetyl acetate,ok,True
+C4H4O3,succinic anhydride,94.856,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=C1CCC(=O)O1,7922.0,"oxolane-2,5-dione",ok,True
+C7H14,"1,trans-2-dimethylcyclopentane",135.464,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C[C@@H]1CCC[C@H]1C,252359.0,"trans-(1R,2R)-1,2-dimethylcyclopentane",ok,True
+C5H9NO,N-methylpyrrolidone,114.257,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CN1CCCC1=O,13387.0,1-methylpyrrolidin-2-one,ok,True
+C7H8,toluene,107.455,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,Cc1ccccc1,1140.0,toluene,ok,True
+C6H7N,4-methylpyridine,102.518,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,Cc1ccncc1,7963.0,4-methylpyridine,ok,True
+C6H13N,cyclohexylamine,127.919,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,NC1CCCCC1,7965.0,cyclohexanamine,ok,True
+C6H12O,cyclohexanol,124.649,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,OC1CCCCC1,7966.0,cyclohexanol,ok,True
+C6H10O,cyclohexanone,113.996,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=C1CCCCC1,7967.0,cyclohexanone,ok,True
+C6H6O,phenol,101.671,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,Oc1ccccc1,996.0,phenol,ok,True
+C6H7N,3-methylpyridine,102.614,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,Cc1cccnc1,7970.0,3-methylpyridine,ok,True
+C6H7N,2-methylpyridine,102.863,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,Cc1ccccn1,7975.0,2-methylpyridine,ok,True
+C5H10O2,pentanoic acid,130.099,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCC(=O)O,7991.0,pentanoic acid,ok,True
+C5H10O2,propyl ethanoate,131.996,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCOC(C)=O,7997.0,propyl acetate,ok,True
+C5H10O,cyclopentanol,105.962,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,OC1CCCC1,7298.0,cyclopentanol,ok,True
+C5H10O2,2-tetrahydrofurylmethanol,118.268,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,R || S,,,,failed:None,False
+C5H6O2,2-hydroxymethylfuran,105.409,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,OCc1ccco1,7361.0,furan-2-ylmethanol,ok,True
+C5H4O2,2-furaldehyde,92.696,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=Cc1ccco1,7362.0,furan-2-carbaldehyde,ok,True
+C6H14O,2-methoxy-2-methylbutane,154.423,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(C)(C)OC,61247.0,2-methoxy-2-methylbutane,ok,True
+C7H14,"1-pentene, 2-ethyl-",147.377,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C=C(CC)CCC,520668.0,3-methylidenehexane,ok,True
+C7H10,bicyclo[2.2.1]hept-2-ene,103.747,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1=CC2CCC1C2.C1=CC2CCC1C2,140987868.0,bicyclo[2.2.1]hept-2-ene,ok_formula_mismatch:C14H20,True
+C7H14,methylcyclohexane,129.756,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC1CCCCC1,7962.0,methylcyclohexane,ok,True
+C6H14O,3-methyl-3-pentanol,155.862,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCC(C)(O)CC,6493.0,3-methylpentan-3-ol,ok,True
+C6H14O,hexan-1-ol,147.809,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCCCCO,8103.0,hexan-1-ol,ok,True
+C6H14O,dipropyl ether,146.136,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CCCOCCC,8114.0,1-propoxypropane,ok,True
+C4H2O3,maleic anhydride,86.785,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,O=C1C=CC(=O)O1,7923.0,"furan-2,5-dione",ok,True
+C5H11N,piperidine,102.7,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1CCNCC1,8082.0,piperidine,ok,True
+C5H12O,3-methylbutan-1-ol,129.903,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,CC(C)CCO,31260.0,3-methylbutan-1-ol,ok,True
+C7H12,bicyclo[2.2.1]heptane,109.679,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,C1CC2CCC1C2,9233.0,bicyclo[2.2.1]heptane,ok,True
+C2Cl5F,"1,1,1,2,2-pentachloro-2-fluoroethane",132.367,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,FC(Cl)(Cl)C(Cl)(Cl)Cl,61107.0,"1,1,1,2,2-pentachloro-2-fluoroethane",ok,True
+CH2I2,diiodomethane,57.778,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,ICI,6346.0,diiodomethane,ok,True
+C6H4Br2,"1,3-dibromobenzene",116.815,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,Brc1cccc(Br)c1,7927.0,"1,3-dibromobenzene",ok,True
+C2Cl6,hexachloroethane,137.561,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,ClC(Cl)(Cl)C(Cl)(Cl)Cl,6214.0,"1,1,1,2,2,2-hexachloroethane",ok,True
+C18H14,o-terphenyl,244.758,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,c1ccc(-c2ccccc2-c2ccccc2)cc1,6766.0,"1,2-diphenylbenzene",ok,True
+C6Cl6,hexachlorobenzene,175.04,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,Clc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl,8370.0,"1,2,3,4,5,6-hexachlorobenzene",ok,True
+C6F14,perfluorohexane,280.995,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,9639.0,"1,1,1,2,2,3,3,4,4,5,5,6,6,6-tetradecafluorohexane",ok,True
+C5F12,perfluoropentane,237.397,b3lyp-d3(bj)/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//DF-MP2/aug-cc-pvQZ,,FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,12675.0,"1,1,1,2,2,3,3,4,4,5,5,5-dodecafluoropentane",ok,True
+C10H12,"1,2,3,4-tetrahydronaphthalene",147.454,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,c1ccc2c(c1)CCCC2,8404.0,"1,2,3,4-tetrahydronaphthalene",ok,True
+C6H6O2,"1,2-benzenediol",121.545,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,Oc1ccccc1O,289.0,"benzene-1,2-diol",ok,True
+C8H16,1-ethyl-1-methylcyclopentane,157.105,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CCC1(C)CCCC1,28030.0,1-ethyl-1-methylcyclopentane,ok,True
+C8H16,"cis-1,2-dimethylcyclohexane",153.139,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,C[C@@H]1CCCC[C@@H]1C,16628.0,"cis-(1S,2R)-1,2-dimethylcyclohexane",ok,True
+C8H16,"trans-1,4-dimethylcyclohexane",153.749,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CC1CCC(C)CC1,11523.0,"1,4-dimethylcyclohexane",ok,True
+C8H12,4-ethenylcyclohexene,136.419,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,R || S,C=CC1CC=CCC1,7499.0,4-ethenylcyclohexene,ok,True
+C8H10,ethylbenzene,127.379,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CCc1ccccc1,7500.0,ethylbenzene,ok,True
+C8H8,styrene,119.455,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,C=Cc1ccccc1,7501.0,styrene,ok,True
+C7H9N,benzylamine,125.254,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,NCc1ccccc1,7504.0,phenylmethanamine,ok,True
+C7H5N,benzonitrile,106.795,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,N#Cc1ccccc1,7505.0,benzonitrile,ok,True
+C7H6O,benzaldehyde,109.894,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,O=Cc1ccccc1,240.0,benzaldehyde,ok,True
+C6H4N2,3-cyanopyridine,102.482,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,N#Cc1cccnc1,79.0,pyridine-3-carbonitrile,ok,True
+C7H9N,N-methylaniline,127.463,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CNc1ccccc1,7515.0,N-methylaniline,ok,True
+C6H8N2,phenylhydrazine,124.24,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,NNc1ccccc1,7516.0,phenylhydrazine,ok,True
+C7H8O,anisole,120.688,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,COc1ccccc1,7519.0,anisole,ok,True
+C8H16,"trans-1,2-dimethylcyclohexane",153.601,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,C[C@@H]1CCCC[C@H]1C,23313.0,"trans-(1R,2R)-1,2-dimethylcyclohexane",ok,True
+C8H14,bicyclo[2.2.2]octane,128.706,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,C1CC2CCC1CC2,9235.0,bicyclo[2.2.2]octane,ok,True
+C8H16,cyclooctane,146.863,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,C1CCCCCCC1,9266.0,cyclooctane,ok,True
+C8H6,1-phenylethyne,115.396,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,C#Cc1ccccc1,10821.0,ethynylbenzene,ok,True
+C8H18,"2,2,4-trimethylpentane",182.99,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CC(C)CC(C)(C)C,10907.0,"2,2,4-trimethylpentane",ok,True
+C6H12O2,"1,1-dimethylethyl ethanoate",160.86,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,,,,failed:None,False
+C6H12O2,ethyl butanoate,152.334,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CCCC(=O)OCC,7762.0,ethyl butanoate,ok,True
+C6H11NO,1-aza-2-cycloheptanone,131.536,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,O=C1CCCCCN1,7768.0,azepan-2-one,ok,True
+C8H18,"2,3,3-trimethylpentane",183.463,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CCC(C)(C)C(C)C,11215.0,"2,3,3-trimethylpentane",ok,True
+C8H18,"3,3-dimethylhexane",181.119,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CCCC(C)(C)CC,11233.0,"3,3-dimethylhexane",ok,True
+C8H18,"2,2,3-trimethylpentane",183.458,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,R || S,CCC(C)C(C)(C)C,11255.0,"2,2,3-trimethylpentane",ok,True
+C8H18,"2,3,4-trimethylpentane",181.78,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CC(C)C(C)C(C)C,11269.0,"2,3,4-trimethylpentane",ok,True
+C7H14O,"2,4-dimethyl-3-pentanone",166.16,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CC(C)C(=O)C(C)C,11271.0,"2,4-dimethylpentan-3-one",ok,True
+C8H18,"3,4-dimethylhexane",179.555,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,"(R,R) || (S,S)",CCC(C)C(C)CC,11412.0,"3,4-dimethylhexane",ok,True
+C8H18,"3,4-dimethylhexane",179.532,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,"(R,S)",CCC(C)C(C)CC,11412.0,"3,4-dimethylhexane",ok,True
+C8H16,"1,1-dimethylcyclohexane",154.638,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CC1(C)CCCCC1,11549.0,"1,1-dimethylcyclohexane",ok,True
+C8H18,"2,2-dimethylhexane",180.823,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CCCCC(C)(C)C,11551.0,"2,2-dimethylhexane",ok,True
+C8H10,"1,4-dimethylbenzene",133.015,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,Cc1ccc(C)cc1,7809.0,"1,4-xylene",ok,True
+C7H8O,4-methylphenol,127.252,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,Cc1ccc(O)cc1,2879.0,4-methylphenol,ok,True
+C8H18,"2,2,3,3-tetramethylbutane",186.819,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CC(C)(C)C(C)(C)C,11675.0,"2,2,3,3-tetramethylbutane",ok,True
+C6H4O2,"1,4-benzoquinone",106.89,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,O=C1C=CC(=O)C=C1,4650.0,"cyclohexa-2,5-diene-1,4-dione",ok,True
+C8H18,3-ethyl-2-methylpentane,179.121,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CCC(CC)C(C)C,11863.0,3-ethyl-2-methylpentane,ok,True
+C5H4O3,2-methylmaleic anhydride,111.985,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CC1=CC(=O)OC1=O,12012.0,"3-methylfuran-2,5-dione",ok,True
+C8H8,"1,3,5,7-cyclooctatetraene",121.06,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,C1=C\C=C/C=C\C=C/1,637866.0,cyclooctatetraene,ok,True
+C8H16,"2,4,4-trimethyl-1-pentene",174.686,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,C=C(C)CC(C)(C)C,7868.0,"2,4,4-trimethylpent-1-ene",ok,True
+C8H16,"2,4,4-trimethyl-2-pentene",177.796,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CC(C)=CC(C)(C)C,7869.0,"2,4,4-trimethylpent-2-ene",ok,True
+C8H14,"2,5-dimethyl-2,4-hexadiene",167.519,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CC(C)=CC=C(C)C,12992.0,"2,5-dimethylhexa-2,4-diene",ok,True
+C8H10,"1,3-dimethylbenzene",133.083,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,Cc1cccc(C)c1,7929.0,"1,3-xylene",ok,True
+C7H8O,3-methylphenol,127.226,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,Cc1cccc(O)c1,342.0,3-methylphenol,ok,True
+C6H6O2,"1,3-benzenediol",121.458,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,Oc1cccc(O)c1,5054.0,"benzene-1,3-diol",ok,True
+C7H9N,"2,6-dimethylpyridine",128.836,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,Cc1cccc(C)n1,7937.0,"2,6-dimethylpyridine",ok,True
+C8H10,"1,2-dimethylbenzene",132.11,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,Cc1ccccc1C,7237.0,"1,2-xylene",ok,True
+C7H8O,2-methylphenol,126.9,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,Cc1ccccc1O,335.0,2-methylphenol,ok,True
+C7H9N,2-methylaniline,131.745,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,Cc1ccccc1N,7242.0,2-methylaniline,ok,True
+C4H4O4,"cis-1,4-butenedioic acid",117.076,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,,,,failed:None,False
+C6H12O2,2-methylpropyl ethanoate,155.42,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CC(=O)OCC(C)C,8038.0,2-methylpropyl acetate,ok,True
+C8H16,"cis-1,4-dimethylcyclohexane",153.334,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CC1CCC(C)CC1,11523.0,"1,4-dimethylcyclohexane",ok,True
+C8H16,"cis-1,3-dimethylcyclohexane",153.804,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,C[C@@H]1CCC[C@H](C)C1,252361.0,"cis-(1R,3S)-1,3-dimethylcyclohexane",ok,True
+C6H12O2,ethyl 2-methylpropanoate,154.848,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CCOC(=O)C(C)C,7342.0,ethyl 2-methylpropanoate,ok,True
+C6H14O2,"1,1-diethoxyethane",163.326,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,CCOC(C)OCC,7765.0,"1,1-diethoxyethane",ok,True
+C8H12,"2-methyl-8,9,10-trinorborn-2-ene",128.556,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,R || S,,,,failed:None,False
+C8H16,"trans-1,3-dimethylcyclohexane",153.372,b3lyp/def2-tzvp + LCCSD(T)/aug-cc-pvQZ//B3LYP/def2-tzvp,,C[C@@H]1CCC[C@@H](C)C1,16629.0,"trans-(1R,3R)-1,3-dimethylcyclohexane",ok,True

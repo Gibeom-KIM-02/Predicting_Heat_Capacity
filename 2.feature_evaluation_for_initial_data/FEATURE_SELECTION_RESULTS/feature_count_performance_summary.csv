@@ -1,0 +1,3 @@
+﻿n_features,label,best_cv_mae,cv_mae_std
+1,rotatable_bonds | elasticnet,43.27999617938966,4.981827335776859
+2,molecular_weight + rotatable_bonds | elasticnet,33.18257775348244,3.9400859902464096

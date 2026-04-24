@@ -1,0 +1,68 @@
+project_root: .
+
+input:
+  root: inputs
+  thermoml_subdirs:
+    - "10.1007"
+    - "10.1016"
+    - "10.1021"
+
+output:
+  root: output
+
+rdkit_log_level: warning
+
+clean_master:
+  allowed_phases:
+    - solid
+    - liquid
+    - gas
+    - glass
+    - fluid
+  temperature_min_K: 50.0
+  temperature_max_K: 1500.0
+  pressure_min_kPa: 1.0
+  pressure_max_kPa: 20000.0
+  keep_missing_pressure: true
+  heat_capacity_min: 1.0e-6
+  heat_capacity_max: 10000.0
+  require_molecular_weight: true
+  exact_dedup_columns:
+    - structure_key
+    - property_phase_norm
+    - temperature_K
+    - pressure_kPa
+    - heat_capacity
+    - source_file
+
+temperature_window_dataset:
+  reference_temperature_K: 298.15
+  window_half_width_K: 30.0
+  dedup_mode: nearest_per_structure_phase
+
+representative_dataset:
+  enabled: true
+  reference_temperature_K: 298.15
+  temperature_window_half_width_K: 30.0
+  reference_pressure_kPa: 101.325
+  pressure_window_half_width_kPa: 20.0
+  keep_missing_pressure: false
+  grouping_columns:
+    - structure_key
+    - phase_coarse
+  selection_priority:
+    - abs_delta_T_ref
+    - abs_delta_P_ref
+    - uncertainty_rank
+  output_csv: cp_master_ambient_representative.csv
+  output_xlsx: cp_master_ambient_representative.xlsx
+  outlier_filter:
+    enabled: false
+    phase_column: phase_coarse
+    cp_column: heat_capacity
+    min_group_size: 30
+    iqr_multiplier: 3.0
+    iqr_multiplier_by_phase: {}
+    use_log10: true
+    remove_flagged: true
+

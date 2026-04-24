@@ -1,0 +1,17 @@
+Chemeo scraping summary
+======================
+Input rows                : 21659
+Cp standardized rows      : 404
+Tboil standardized rows   : 2041
+Tfus standardized rows    : 1960
+URL captured rows         : 21659
+Target temperature        : 298.15
+Tolerance (K)             : 30.0
+Final output file         : /home/users/Beom/work/1.Project/7.AIML/1.midterm_preparation/4.data_extract_from_chemco2/output/PubChem_Cp_Tboil_Tfus_data.csv
+Partial output file       : /home/users/Beom/work/1.Project/7.AIML/1.midterm_preparation/4.data_extract_from_chemco2/output/PubChem_Cp_Tboil_Tfus_data_partial.csv
+Log file                  : /home/users/Beom/work/1.Project/7.AIML/1.midterm_preparation/4.data_extract_from_chemco2/logs/chemeo_scrape_log.txt
+Status counts:
+  SEARCH_NO_CANDIDATE: 19180
+  OK: 2060
+  DETAIL_FOUND_BUT_NO_TARGET_PROPERTY: 418
+  DETAIL_PAGE_NO_PROPERTY_ROWS: 1
