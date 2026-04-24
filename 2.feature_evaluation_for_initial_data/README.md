@@ -10,20 +10,20 @@ The goal of this experiment is:
 
 ## 📁 Directory Structure
 
-2.feature_evaluation_for_initial_data/ 
-├── 01_feature_pair_selector.py 
-├── config.yaml 
-├── mid_project_verified.xlsx 
-└── FEATURE_SELECTION_RESULTS/ 
-    ├── cleaned_dataset.csv 
-    ├── feature_quality_summary.csv 
-    ├── single_feature_ranking.csv 
-    ├── feature_pair_ranking.csv 
-    ├── best_feature_pair_summary.csv 
-    ├── best_model_holdout_summary.csv 
-    ├── holdout_predictions_best_model.csv 
-    ├── best_model_explanation.csv 
-    └── *.png (plots) 
+2.feature_evaluation_for_initial_data/  
+├── 01_feature_pair_selector.py  
+├── config.yaml  
+├── mid_project_verified.xlsx  
+└── FEATURE_SELECTION_RESULTS/  
+    ├── cleaned_dataset.csv  
+    ├── feature_quality_summary.csv  
+    ├── single_feature_ranking.csv  
+    ├── feature_pair_ranking.csv  
+    ├── best_feature_pair_summary.csv  
+    ├── best_model_holdout_summary.csv  
+    ├── holdout_predictions_best_model.csv  
+    ├── best_model_explanation.csv  
+    └── *.png (plots)  
  
 ---
 
