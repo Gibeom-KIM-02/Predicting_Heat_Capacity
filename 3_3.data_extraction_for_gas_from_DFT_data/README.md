@@ -34,17 +34,19 @@ Important:
 
 ## 2. Project Structure
 
-4.gas_compute_chem/
-├── 01_organise_data_with_smiles.py
-├── input/
-│   └── ComputedFormationEnthalpies_2022Feb.csv
-├── output/
-│   ├── Cp298_with_SMILES_rows.csv
-│   ├── Cp298_with_SMILES_unique_by_method.csv
-│   ├── Cp298_with_SMILES_unique_all_methods_mean.csv
-│   └── Cp298_with_SMILES.xlsx
-├── note.txt
-└── README.md
+```
+4.gas_compute_chem/  
+├── 01_organise_data_with_smiles.py  
+├── input/  
+│   └── ComputedFormationEnthalpies_2022Feb.csv  
+├── output/  
+│   ├── Cp298_with_SMILES_rows.csv  
+│   ├── Cp298_with_SMILES_unique_by_method.csv  
+│   ├── Cp298_with_SMILES_unique_all_methods_mean.csv  
+│   └── Cp298_with_SMILES.xlsx  
+├── note.txt  
+└── README.md  
+```
 
 ---
 
