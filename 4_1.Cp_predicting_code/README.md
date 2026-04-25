@@ -21,7 +21,7 @@ The model follows the assignment input rule:
 In the final submitted model, no manually provided phase label is used. The prediction pipeline is:
 
 ```text
-compound name or SMILES
+compound name or SMILES with Cp
         ↓
 name-to-SMILES resolution, if needed
         ↓
