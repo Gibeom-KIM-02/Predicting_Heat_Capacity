@@ -81,7 +81,6 @@ The project is organized into configuration files, executable scripts, reusable 
 ├─ data/
 │  ├─ processed/
 │  │  └─ Cp_input_data_final.xlsx # Final cleaned dataset used for model training
-│  │
 │  └─ external/
 │     └─ test_all.xlsx            # Example external test file
 │
