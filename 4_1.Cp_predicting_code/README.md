@@ -72,7 +72,7 @@ These descriptors are chemically reasonable for Cp prediction because molecular 
 The project is organized into configuration files, executable scripts, reusable source modules, trained model artifacts, and output reports.
 
 ```text
-1_Cp_prediction/
+4_1.Cp_prediction/
 ├─ configs/
 │  ├─ feature_search.yaml        # Configuration for broad feature/model search
 │  ├─ final_train.yaml           # Main configuration for final model training
