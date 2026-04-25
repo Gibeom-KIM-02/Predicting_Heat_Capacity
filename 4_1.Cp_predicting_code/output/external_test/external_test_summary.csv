@@ -1,0 +1,2 @@
+input_file,n_rows,n_predicted,n_failed,model_dir,feature_set,smiles_col_used,name_col_used,target_col_used,resolve_status__resolved_from_local_lookup,n_evaluated,mae,rmse,r2
+data/external/test_all.xlsx,198,198,0,models/final_model,chem_compact_v1,,name,heat_capacity,198,198,9.19139613122722,12.255546211972169,0.9932470789867375

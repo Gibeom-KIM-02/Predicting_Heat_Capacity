@@ -1,5 +1,0 @@
-﻿subset,input_rows,valid_structure_rows,rows_after_union_dedup,unique_structure_keys,output_csv,structure_failures
-SetA,562,562,562,562,/home/users/Beom/work/1.Project/7.AIML/2.midterm_final/4.export_data_from_NIST/MODEL_READY/setA_model_ready.csv,0
-SetB,612,612,612,612,/home/users/Beom/work/1.Project/7.AIML/2.midterm_final/4.export_data_from_NIST/MODEL_READY/setB_model_ready.csv,0
-SetC,665,665,665,665,/home/users/Beom/work/1.Project/7.AIML/2.midterm_final/4.export_data_from_NIST/MODEL_READY/setC_model_ready.csv,0
-UNION,1839,1839,665,665,/home/users/Beom/work/1.Project/7.AIML/2.midterm_final/4.export_data_from_NIST/MODEL_READY/nist_model_ready_union.csv,0

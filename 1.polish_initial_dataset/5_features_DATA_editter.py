@@ -6,6 +6,8 @@ import numpy as np
 import math
 from urllib.parse import quote
 from difflib import SequenceMatcher
+from rdkit import Chem
+from rdkit.Chem import Descriptors, rdMolDescriptors
 
 # Configuration
 DELAY = 0.3 
@@ -29,10 +31,7 @@ def get_cid_from_name(name, retries=CID_LOOKUP_RETRIES):
         return candidates[0]
 
     selected = select_best_cid(name, candidates)
-    if selected is not None:
-        return selected
-
-    return prompt_cid_selection(name, candidates)
+    return selected
 
 def get_cid_candidates_from_name(name, retries=CID_LOOKUP_RETRIES):
     """Fetch possible CID candidates for a compound name."""
@@ -153,46 +152,85 @@ def select_best_cid(name, candidates):
 
         return prompt_cid_selection(name, top_candidates)
 
+    # Even when confidence is low, return the highest-similarity candidate.
+    if scored:
+        return scored[0][0]
+
     return None
 
 def prompt_cid_selection(name, candidates):
-    """Prompt user to choose CID if multiple ambiguous candidates exist."""
-    print(f"    -> [CID 모호] '{name}' 후보가 {len(candidates)}개입니다.")
-    for i, cid in enumerate(candidates[:10], start=1):
-        synonyms = get_synonyms_for_cid(cid)
-        label = synonyms[0] if synonyms else 'N/A'
-        structure = get_structure_for_cid(cid)
-        smiles = structure.get('isomeric_smiles') or 'N/A'
-        inchikey = structure.get('inchi_key') or 'N/A'
-        print(f"       {i}) CID {cid} | {label}")
-        print(f"          SMILES: {smiles}")
-        print(f"          InChIKey: {inchikey}")
+    """Auto-pick CID with highest synonym similarity (no user input)."""
+    target = normalize_name(name)
+    scored = []
 
-    while True:
-        user_input = input("       선택 번호 입력 (Enter=skip): ").strip()
-        if user_input == '':
-            return None
-        if user_input.isdigit():
-            idx = int(user_input)
-            if 1 <= idx <= min(len(candidates), 10):
-                return candidates[idx - 1]
-        print("       -> [입력 오류] 표시된 번호를 입력하세요.")
+    for cid in candidates:
+        synonyms = get_synonyms_for_cid(cid)
+        if not synonyms:
+            scored.append((cid, 0.0))
+            continue
+
+        best_ratio = 0.0
+        for syn in synonyms:
+            ratio = SequenceMatcher(None, target, normalize_name(syn)).ratio()
+            if ratio > best_ratio:
+                best_ratio = ratio
+        scored.append((cid, best_ratio))
+
+    # Deterministic tie-breaker: smaller CID first.
+    scored.sort(key=lambda x: (-x[1], x[0]))
+    selected_cid = scored[0][0] if scored else None
+
+    if selected_cid is not None:
+        print(f"    -> [CID AUTO] '{name}' 후보 {len(candidates)}개 중 CID {selected_cid} 자동 선택")
+
+    return selected_cid
 
 def get_computed_properties(cid):
-    """ Fetch computed properties (MW, Rotatable Bonds) via REST API """
-    url = f"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/{cid}/property/MolecularWeight,RotatableBondCount/JSON"
-    try:
-        res = requests.get(url, timeout=10)
-        time.sleep(DELAY)
-        if res.status_code == 200:
-            props = res.json()['PropertyTable']['Properties'][0]
-            return {
-                'molecular_weight': props.get('MolecularWeight'),
-                'rotatable_bonds': props.get('RotatableBondCount')
-            }
-    except:
-        pass
+    """Deprecated: kept for backward compatibility but no longer used."""
     return None
+
+def get_rdkit_properties_from_smiles(smiles_text):
+    """Calculate canonical SMILES, MW, and rotatable bonds from SMILES using RDKit."""
+    if smiles_text is None:
+        return None
+
+    smiles = str(smiles_text).strip()
+    if smiles == '' or smiles == '-':
+        return None
+
+    try:
+        mol = Chem.MolFromSmiles(smiles)
+        if mol is None:
+            return None
+
+        canonical = Chem.MolToSmiles(mol, canonical=True)
+        return {
+            'canonical_smiles': canonical,
+            'molecular_weight': round(float(Descriptors.MolWt(mol)), 4),
+            'rotatable_bonds': int(rdMolDescriptors.CalcNumRotatableBonds(mol)),
+        }
+    except Exception:
+        return None
+
+def check_and_update_text(df, index, col_name, new_val):
+    """Compare and update dataframe text field with normalization."""
+    if new_val is None:
+        return
+
+    new_text = str(new_val).strip()
+    if new_text == '' or new_text == '-':
+        return
+
+    existing_val = df.at[index, col_name]
+    if pd.isna(existing_val) or str(existing_val).strip() in ['', '-']:
+        df.at[index, col_name] = new_text
+        print(f"    -> [FILLED] {col_name}: {new_text}")
+        return
+
+    exist_text = str(existing_val).strip()
+    if exist_text != new_text:
+        df.at[index, col_name] = new_text
+        print(f"    -> [CORRECTED] {col_name}: {exist_text} -> {new_text}")
 
 def extract_recursive(node, target_heading, results):
     """ Recursive search in PUG View JSON """
@@ -293,10 +331,18 @@ def check_and_update(df, index, col_name, new_val, abs_tol=0.0, rel_tol=0.0):
 # ==========================================
 # 2. Main Pipeline
 # ==========================================
-print("Starting PubChem 6-Feature Verification Pipeline...\n")
+print("Starting PubChem Verification Pipeline...\n")
 
 df = pd.read_excel(INPUT_FILE)
 df = df.replace('-', np.nan)
+
+# Ensure canonical_smiles exists right next to smiles when possible
+if 'canonical_smiles' not in df.columns:
+    if 'smiles' in df.columns:
+        insert_at = df.columns.get_loc('smiles') + 1
+        df.insert(insert_at, 'canonical_smiles', np.nan)
+    else:
+        df['canonical_smiles'] = np.nan
 
 # Ensure target columns exist
 features = ['molecular_weight', 'rotatable_bonds', 'melting_point', 'boiling_point', 'critical_temperature', 'acentric_factor']
@@ -316,12 +362,28 @@ for index, row in df.iterrows():
         print("    -> CID NOT FOUND")
         continue
 
-    # Part A: Computed Properties (MW, Rotatable Bonds) - High precision, 1% tolerance
-    computed = get_computed_properties(cid)
-    if computed:
-        check_and_update(df, index, 'molecular_weight', computed['molecular_weight'], rel_tol=0.01)
-        # Rotatable bonds must be exact integer match, so tolerance is effectively 0
-        check_and_update(df, index, 'rotatable_bonds', computed['rotatable_bonds'], abs_tol=0.1)
+    # Part A: Use SMILES + RDKit for canonical SMILES, MW, Rotatable Bonds
+    structure = get_structure_for_cid(cid)
+    pubchem_smiles = structure.get('isomeric_smiles') if structure else None
+
+    source_smiles = row['smiles'] if 'smiles' in df.columns and pd.notna(row.get('smiles')) else pubchem_smiles
+    if (source_smiles is None or str(source_smiles).strip() == '' or str(source_smiles).strip() == '-') and pubchem_smiles:
+        source_smiles = pubchem_smiles
+
+    if 'smiles' in df.columns and pubchem_smiles:
+        if pd.isna(df.at[index, 'smiles']) or str(df.at[index, 'smiles']).strip() == '-':
+            df.at[index, 'smiles'] = pubchem_smiles
+            print(f"    -> [FILLED] smiles: {pubchem_smiles}")
+
+    rdkit_props = get_rdkit_properties_from_smiles(source_smiles)
+    if rdkit_props:
+        check_and_update_text(df, index, 'canonical_smiles', rdkit_props['canonical_smiles'])
+        # MW follows previous 1% tolerance policy.
+        check_and_update(df, index, 'molecular_weight', rdkit_props['molecular_weight'], rel_tol=0.01)
+        # Rotatable bonds are integer descriptor, so use near-exact comparison.
+        check_and_update(df, index, 'rotatable_bonds', rdkit_props['rotatable_bonds'], abs_tol=0.1)
+    else:
+        print("    -> [RDKit] SMILES 파싱 실패로 MW/rotatable_bonds 비교 생략")
 
     # Part B: Experimental Temperatures (MP, BP, Tc) - 3.0°C tolerance
     # Melting Point

@@ -1,3 +1,0 @@
-feature,importance,importance_std,explanation_type,pair,model
-molecular_weight,122.02821037660208,113.21030086156844,shap_tree_mean_abs,molecular_weight + boiling_point,rf
-boiling_point,11.038358098002172,9.111066308840464,shap_tree_mean_abs,molecular_weight + boiling_point,rf

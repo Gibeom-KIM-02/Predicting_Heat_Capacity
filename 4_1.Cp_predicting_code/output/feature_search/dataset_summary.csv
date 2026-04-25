@@ -1,0 +1,3 @@
+group,n_rows,n_unique_smiles_raw,n_unique_compounds,n_source_sheets
+all,2047,1830,1917,1
+sheet:sheet0,2047,1830,1917,1

@@ -1,3 +1,0 @@
-feature,importance,importance_std,explanation_type,pair,model
-rotatable_bonds,96.10748368436444,68.76853730815077,shap_linear_mean_abs,rotatable_bonds + H_bond_acceptors,elasticnet
-H_bond_acceptors,2.2094658203738753,1.7354573887129467,shap_linear_mean_abs,rotatable_bonds + H_bond_acceptors,elasticnet

@@ -1,0 +1,38 @@
+{
+  "model_file": "cp_regressor.joblib",
+  "feature_set": "chem_compact_v1",
+  "feature_names": [
+    "NumValenceElectrons",
+    "HeavyAtomCount",
+    "LabuteASA",
+    "Kappa1",
+    "NumRotatableBonds",
+    "MolLogP",
+    "TPSA",
+    "NumHAcceptors",
+    "FractionCSP3",
+    "HeteroAtomFraction"
+  ],
+  "extra_feature_columns": [],
+  "target": "Cp_J_molK",
+  "unit": "J/mol*K",
+  "cv_type": "GroupKFold",
+  "n_splits": 5,
+  "sample_weighting": {
+    "enabled": false,
+    "method": "cp_bin_inverse_frequency",
+    "n_bins": 10
+  },
+  "split": {
+    "enabled": true,
+    "train_size": 0.6,
+    "val_size": 0.2,
+    "test_size": 0.2,
+    "n_bins": 10,
+    "random_seed": 2301,
+    "refit_final_on": "full"
+  },
+  "refit_final_on": "full",
+  "n_final_fit_rows": 2047,
+  "n_final_fit_unique_compounds": 1830
+}

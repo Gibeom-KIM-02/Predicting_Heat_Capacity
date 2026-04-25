@@ -1,0 +1,2 @@
+input_smiles,canonical_smiles,Cp_pred_J_molK,model_used,feature_set,feature_names,input_name,resolved_smiles
+CC(C)=O,CC(C)=O,100.9161388392854,cp_regressor.joblib,chem_compact_v1,"[""NumValenceElectrons"", ""HeavyAtomCount"", ""LabuteASA"", ""Kappa1"", ""NumRotatableBonds"", ""MolLogP"", ""TPSA"", ""NumHAcceptors"", ""FractionCSP3"", ""HeteroAtomFraction""]",acetone,CC(C)=O

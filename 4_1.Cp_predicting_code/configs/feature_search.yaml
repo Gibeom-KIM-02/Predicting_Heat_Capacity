@@ -1,0 +1,50 @@
+input_excel: data/processed/Cp_input_data_final.xlsx
+sheet_name: null
+read_all_sheets: false
+
+output_dir: output/feature_search
+model_dir: models/feature_search
+
+smiles_columns:
+  - canonical_smiles
+  - smiles
+  - SMILES
+
+name_columns:
+  - chemical_compound_name
+  - compound_name
+  - name
+
+target_columns:
+  - Cp [J/mol*K]
+  - Cp_J_molK
+  - heat_capacity
+  - Cp
+
+source_columns:
+  - source
+
+random_seed: 6138
+n_splits: 5
+
+tasks:
+  - all
+
+feature_sets:
+  - basic_2
+  - rdkit_selected
+  - rdkit_small
+  - morgan
+  - maccs
+
+models:
+  - linear
+  - ridge
+  - elasticnet
+  - random_forest
+  - gradient_boosting
+  - svr
+
+morgan:
+  radius: 2
+  n_bits: 1024

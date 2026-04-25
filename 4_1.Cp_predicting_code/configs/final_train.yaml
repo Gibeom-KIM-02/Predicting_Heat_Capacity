@@ -1,0 +1,106 @@
+# configs/final_train.yaml
+
+input_excel: data/processed/Cp_input_data_final.xlsx
+sheet_name: null
+read_all_sheets: false
+
+output_dir: output/final_model
+model_dir: models/final_model
+
+smiles_columns:
+  - canonical_smiles
+  - smiles
+  - SMILES
+
+name_columns:
+  - chemical_compound_name
+  - compound_name
+  - name
+
+target_columns:
+  - Cp [J/mol*K]
+  - Cp_J_molK
+  - heat_capacity
+  - Cp
+
+source_columns:
+  - source
+
+# Optional: At most 2 physical features from the provided Excel file.
+# Leave empty if the submitted model should use only SMILES-derived descriptors.
+extra_feature_columns: []
+
+random_seed: 6739
+n_splits: 5
+
+# Current final model descriptor set.
+# selected_rdkit_v1 = interpretable 25 RDKit descriptors from SMILES.
+feature_set: chem_compact_v1
+
+split:
+  enabled: true
+  train_size: 0.60
+  val_size: 0.20
+  test_size: 0.20
+  n_bins: 10
+  random_seed: 2301
+
+  # Options:
+  #   full      : evaluate on train/validation/test, then refit final deployable model on all cleaned data.
+  #   train_val : evaluate on test, then save a final model trained only on train + validation.
+  refit_final_on: full
+
+error_analysis:
+  n_bins: 10
+
+# Optional imbalance handling.
+# false = optimize ordinary MAE more directly.
+# true  = give more weight to sparse Cp regions; check Cp-bin error tables.
+sample_weighting:
+  enabled: false
+  method: cp_bin_inverse_frequency
+  n_bins: 10
+
+# regressor:
+regressor:
+  model_type: random_forest
+  n_estimators: 800
+  min_samples_leaf: 1
+  min_samples_split: 2
+  max_depth: null
+  max_features: sqrt
+  bootstrap: true
+
+# Alternative model for staged learning-curve logs.
+# To test this, comment out the random_forest regressor above and uncomment this block.
+# regressor:
+#   model_type: gradient_boosting
+#   n_estimators: 800
+#   learning_rate: 0.03
+#   max_depth: 3
+#   min_samples_leaf: 1
+#   min_samples_split: 2
+#   subsample: 0.9
+
+training_log:
+  enabled: true
+  output_dir: output/final_model/training_logs
+
+  # For random_forest: performance as n_estimators increases.
+  rf_n_estimators_grid:
+    - 50
+    - 100
+    - 200
+    - 400
+    - 800
+
+  # For gradient_boosting: save staged MAE curve if the active model is gradient_boosting.
+  save_gb_staged_curve: true
+
+interpretability:
+  enabled: true
+  output_dir: output/final_model/interpretability
+  max_samples: 500
+  random_seed: 6739
+  save_shap: true
+  save_feature_importance_plot: true

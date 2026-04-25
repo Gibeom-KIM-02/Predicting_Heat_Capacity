@@ -1,3 +1,0 @@
-feature,importance,importance_std,explanation_type,pair,model
-rotatable_bonds,79.70482245835103,57.03181320268373,shap_linear_mean_abs,rotatable_bonds + logP,ridge
-logP,24.842506272369405,17.987824645075737,shap_linear_mean_abs,rotatable_bonds + logP,ridge

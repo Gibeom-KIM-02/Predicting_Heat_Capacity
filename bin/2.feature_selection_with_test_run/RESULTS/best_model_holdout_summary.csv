@@ -1,2 +1,0 @@
-model,feature_1,feature_2,mae_train,mae_test,rmse_test,r2_test,n_train,n_test
-elasticnet,molecular_weight,rotatable_bonds,34.62833949976704,24.991103758037827,32.51351484244942,0.9615231745358005,158,40

@@ -1,2 +1,0 @@
-feature_1,feature_2,model,n_samples_used,cv_mae_mean,cv_mae_std,cv_rmse_mean,cv_r2_mean
-molecular_weight,rotatable_bonds,linear,784,46.63124931936837,4.156329988304463,78.01434264668148,0.8882203224651818
