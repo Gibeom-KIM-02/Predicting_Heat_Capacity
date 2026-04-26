@@ -437,3 +437,4 @@ for index, row in df.iterrows():
 df = df.fillna('-')
 df.to_excel(OUTPUT_FILE, index=False)
 print(f"\nPipeline Complete! Data saved to: {OUTPUT_FILE}")
+
