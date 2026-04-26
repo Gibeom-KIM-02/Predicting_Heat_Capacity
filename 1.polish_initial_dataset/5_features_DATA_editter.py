@@ -360,8 +360,21 @@ if 'canonical_smiles' not in df.columns:
     else:
         df['canonical_smiles'] = np.nan
 
+# Convert text columns to object dtype
+for col in TEXT_COLUMNS:
+    if col in df.columns:
+        df[col] = df[col].astype("object")
+
 # Ensure target columns exist
-features = ['molecular_weight', 'rotatable_bonds', 'melting_point', 'boiling_point', 'critical_temperature', 'acentric_factor']
+features = [
+    'molecular_weight',
+    'rotatable_bonds',
+    'melting_point',
+    'boiling_point',
+    'critical_temperature',
+    'acentric_factor'
+]
+
 for col in features:
     if col not in df.columns:
         df[col] = np.nan
@@ -424,4 +437,3 @@ for index, row in df.iterrows():
 df = df.fillna('-')
 df.to_excel(OUTPUT_FILE, index=False)
 print(f"\nPipeline Complete! Data saved to: {OUTPUT_FILE}")
-
