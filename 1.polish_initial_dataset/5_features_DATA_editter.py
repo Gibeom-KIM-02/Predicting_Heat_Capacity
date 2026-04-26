@@ -334,6 +334,22 @@ def check_and_update(df, index, col_name, new_val, abs_tol=0.0, rel_tol=0.0):
 print("Starting PubChem Verification Pipeline...\n")
 
 df = pd.read_excel(INPUT_FILE)
+
+TEXT_COLUMNS = [
+    "name",
+    "chemical_compound_name",
+    "compound_name",
+    "smiles",
+    "canonical_smiles",
+    "pubchem_name",
+    "iupac_name",
+    "molecular_formula",
+    "verification_status",
+    "source",
+    "note",
+    "error_message",
+]
+
 df = df.replace('-', np.nan)
 
 # Ensure canonical_smiles exists right next to smiles when possible
@@ -408,3 +424,4 @@ for index, row in df.iterrows():
 df = df.fillna('-')
 df.to_excel(OUTPUT_FILE, index=False)
 print(f"\nPipeline Complete! Data saved to: {OUTPUT_FILE}")
+
