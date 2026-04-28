@@ -6,7 +6,6 @@ paths:
 files:
   input_files:
     - "PubChem_compound_CID.csv"
-      #    - "PubChem_compound_CID_2.csv"
   output_file: "PubChem_Cp_Tboil_Tfus_data.csv"
   summary_file: "PubChem_scrape_summary.txt"
   cp_only_file: "PubChem_Cp_only.csv"
