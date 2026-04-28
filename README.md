@@ -1,4 +1,4 @@
-# AIML Midterm Project: Chemical Heat Capacity Prediction
+# Predicting Chemical Heat Capacity with Machine Learning 
 
 This repository contains the workflow for building a machine learning regression model to predict the constant-pressure heat capacity, **Cp**, of chemical compounds in **J/mol·K**.
 
