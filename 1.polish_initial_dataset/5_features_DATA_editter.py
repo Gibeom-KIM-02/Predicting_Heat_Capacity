@@ -181,7 +181,7 @@ def prompt_cid_selection(name, candidates):
     selected_cid = scored[0][0] if scored else None
 
     if selected_cid is not None:
-        print(f"    -> [CID AUTO] '{name}' 후보 {len(candidates)}개 중 CID {selected_cid} 자동 선택")
+        print(f"    -> [CID AUTO] Automatically selected CID {selected_cid} from {len(candidates)} candidates for '{name}'")
 
     return selected_cid
 
@@ -412,7 +412,7 @@ for index, row in df.iterrows():
         # Rotatable bonds are integer descriptor, so use near-exact comparison.
         check_and_update(df, index, 'rotatable_bonds', rdkit_props['rotatable_bonds'], abs_tol=0.1)
     else:
-        print("    -> [RDKit] SMILES 파싱 실패로 MW/rotatable_bonds 비교 생략")
+        print("    -> [RDKit] Failed to parse SMILES; skipping MW/rotatable_bonds comparison")
 
     # Part B: Experimental Temperatures (MP, BP, Tc) - 3.0°C tolerance
     # Melting Point
